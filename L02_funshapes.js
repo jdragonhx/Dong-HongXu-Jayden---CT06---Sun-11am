@@ -30,9 +30,10 @@ function draw() {
 
     stroke(255, 165, 0); // orange
     strokeWeight(14); //thickness
+    F
 
 
-    
+
   // Challenge 1: An eye using ellipse() function
 
   // Challenge 2: A face using circle() function
