@@ -7,6 +7,7 @@ function setup() {
 }
 
 function draw() {    
+    // ellipse(x, y, width, height)
     // ellipse(100, 100, 80, 50)
     // ellipse(200, 100, 80, 50)
 
@@ -14,12 +15,11 @@ function draw() {
     // circle(425, 200, 100);
 
     // rect(100, 100, 50, 100, 30, 10, 15, 5);
-    triangle(30, 75, 58, 20, 86, 75);
-    triangle(20, 40, 75, 40, 57, 32);
+    // triangle(30, 75, 58, 20, 86, 75);
+    // triangle(20, 40, 75, 40, 57, 32);
   
-  }
 
-
+    
   // Challenge 1: An eye using ellipse() function
 
   // Challenge 2: A face using circle() function
