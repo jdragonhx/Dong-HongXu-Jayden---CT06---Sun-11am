@@ -29,8 +29,7 @@ function draw() {
     // quad(120, 150, 180, 150, 180, 170, 120, 170);
 
     stroke(255, 165, 0); // orange
-    strokeWeight(14)
-
+    strokeWeight(14); //
   // Challenge 1: An eye using ellipse() function
 
   // Challenge 2: A face using circle() function
