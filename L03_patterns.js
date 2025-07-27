@@ -2,7 +2,7 @@ function setup() {
   }
   
 function draw() {
-  FileList()
+  fill()
   circle(75, 200, 100);
   circle(225, 200, 100);
   circle(375, 200, 100);
