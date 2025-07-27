@@ -24,6 +24,7 @@ function draw() {
 
     fill(255, 0, 0)
     quad(50, 162, 86, 150, 50, 138, 14, 150)
+    fill()
     quad(120, 150, 180, 150, 180, 170, 120, 170)
 
   // Challenge 1: An eye using ellipse() function
