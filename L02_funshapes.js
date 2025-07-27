@@ -21,8 +21,8 @@ function draw() {
     // quad(20, 80, 80, 80, 120, 20, 120); //rectangle
     // quad(100, 80, 150, 80, 150, 130, 100, 130); //square
     
+    quad()
 
-    
   // Challenge 1: An eye using ellipse() function
 
   // Challenge 2: A face using circle() function
