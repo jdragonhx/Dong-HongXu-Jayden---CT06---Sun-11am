@@ -30,7 +30,8 @@ function draw() {
 
     stroke(255, 165, 0); // orange
     strokeWeight(14); //thickness
-    fill()
+    fill(255, 0, 0);
+    
 
 
 
