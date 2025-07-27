@@ -22,10 +22,10 @@ function draw() {
     // quad(100, 80, 150, 80, 150, 130, 100, 130); //square
 
 
-    fill(255, 0, 0)
-    noStrock()
-    quad(50, 162, 86, 150, 50, 138, 14, 150)
-    fill(0, 255, 0)
+    fill(255, 0, 0);
+    noStrock();
+    quad(50, 162, 86, 150, 50, 138, 14, 150);
+    fill(0, 255, 0);
     quad(120, 150, 180, 150, 180, 170, 120, 170)
 
   // Challenge 1: An eye using ellipse() function
