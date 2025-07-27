@@ -31,7 +31,7 @@ function draw() {
     stroke(255, 165, 0); // orange
     strokeWeight(14); //thickness
     fill(255, 0, 0);
-    quad
+    quad(120, 150, 180, )
 
 
 
