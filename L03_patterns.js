@@ -3,10 +3,10 @@ function setup() {
   
 function draw() {
   circle(75, 200, 100);
+  circle(225, 200, 100);
   circle(75, 200, 100);
   circle(75, 200, 100);
-  circle(75, 200, 100);
-  circle(75, 200, 100);
+
   // Recap 1: Repeating Circles
 
   // Task 1: Colour Gradient
