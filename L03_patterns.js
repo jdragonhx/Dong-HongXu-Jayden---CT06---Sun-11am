@@ -1,4 +1,5 @@
 function setup() {
+  createCan
   }
   
 function draw() {
