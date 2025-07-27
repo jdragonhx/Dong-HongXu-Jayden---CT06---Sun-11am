@@ -29,6 +29,7 @@ function draw() {
     // quad(120, 150, 180, 150, 180, 170, 120, 170);
 
     noStroke()
+    
 
   // Challenge 1: An eye using ellipse() function
 
