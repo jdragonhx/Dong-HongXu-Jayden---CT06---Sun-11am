@@ -2,7 +2,7 @@ function setup() {
   }
   
 function draw() {
-  circle(75, 200, 150);
+  circle(75, 200, 100);
   circle(425, 200, 100);
   // Recap 1: Repeating Circles
 
