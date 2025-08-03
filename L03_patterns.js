@@ -17,7 +17,7 @@ function draw() {
         fill(255);
     }                             //loop                         instead of circle(75, 200, 100);
     circle(spacing + i*spacing, 200, 40);
-    Rect(spacing + i*spacing, 250, 50, 50)
+    rect(spacing + i*spacing, 250, 50, 50)
     // colorValue +=1;                           //idk to be honest                        circle(225, 200, 100);
   }  
                                               // continues                              circle(375, 200, 100);
