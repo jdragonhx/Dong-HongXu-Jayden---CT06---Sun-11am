@@ -13,7 +13,9 @@ function draw() {
     // fill(colorValue%255);
     if(i%2 === 0) {
       FileList(0);
-      }  else                             //loop                         instead of circle(75, 200, 100);
+    }  else {
+        fill(255);
+    }                             //loop                         instead of circle(75, 200, 100);
     circle(spacing + i*spacing, 200, 40);
     // colorValue +=1;                           //idk to be honest                        circle(225, 200, 100);
   }  
