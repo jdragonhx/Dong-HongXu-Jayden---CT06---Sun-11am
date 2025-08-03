@@ -12,7 +12,7 @@ function draw() {
     //fill(0, 0, i*spacing)
     // fill(colorValue%255);
     if(i%2 === 0) {
-      FileList(0);
+      fill(0);
     }  else {
         fill(255);
     }                             //loop                         instead of circle(75, 200, 100);
