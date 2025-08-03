@@ -33,4 +33,5 @@ function draw() {
   // Task 4: Grid of Circles
 }
 
-  // Task 5 Circle in the cent
+  // Task 5 Circle in the centre
+  
