@@ -34,4 +34,4 @@ function draw() {
 }
 
   // Task 5 Circle in the centre
-  
+  circle()
