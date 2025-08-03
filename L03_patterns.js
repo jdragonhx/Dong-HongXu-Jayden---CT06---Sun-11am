@@ -29,7 +29,7 @@ function draw() {
   // Task 2: Colour Loop
 
   // Task 3: Row of Circles
-  let 
+  let diameter
 
   // Task 4: Grid of Circles
 
