@@ -36,6 +36,7 @@ function draw() {
   // Task 5 Circle in the centre
   
 rect(0, 100, width, 400);
+fill('red');
 circle(width/2, height/2, 100);
 
 }
