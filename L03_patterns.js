@@ -6,7 +6,7 @@ function setup() {
 function draw() {
   fill(0, 0, 255)                 //notes -->      -->       -->       
   for (let i = 0; i < 11; i++) {  //loop                        instead of circle(75, 200, 100);
-  ircle(50 + i*50, 200, 40);    //idk to be honest                        circle(225, 200, 100);
+    circle(50 + i*50, 200, 40);    //idk to be honest                        circle(225, 200, 100);
     }                            // continues                              circle(375, 200, 100);
                                            //                              circle -----------
     // Recap 1: Repeating Circles       
