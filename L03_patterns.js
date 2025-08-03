@@ -30,7 +30,7 @@ function draw() {
 
   // Task 3: Row of Circles
   let diameter = 30;
-  let
+  let numCircle
 
   // Task 4: Grid of Circles
 
