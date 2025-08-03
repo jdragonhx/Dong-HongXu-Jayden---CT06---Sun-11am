@@ -29,7 +29,7 @@ function draw() {
   // Task 2: Colour Loop
 
   // Task 3: Row of Circles
-  let diameter = 30;
+  let diameter = 50;
   let numCircle = 5;
   let totalWidth = diameter * numCircle
   let startX = (width - totalWidth)/2 + diameter/2
