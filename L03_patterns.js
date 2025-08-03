@@ -34,5 +34,5 @@ function draw() {
 }
 
   // Task 5 Circle in the centre
-  React()
+  rect()
   circle(width/2, height/2, 100);
