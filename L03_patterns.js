@@ -7,19 +7,19 @@ function setup() {
   }
     
 function draw() {                      
-  for (let i = 0; i < 11; i++) {
-    //fill(i*50);   //fil(r, g, b)
-    //fill(0, 0, i*spacing)
-    // fill(colorValue%255);
-    // if(i%2 === 0) {
-    //   fill(0);
-    // }  else {
-    //     fill(255);
-    // }                             //loop                         instead of circle(75, 200, 100);
-    // circle(spacing + i*spacing, 200, 40);
-    // rect(spacing + i*spacing, 250, 50, 50);
-    // colorValue +=1;                           //idk to be honest                        circle(225, 200, 100);
-  }  
+  // for (let i = 0; i < 11; i++) {
+  //   //fill(i*50);   //fil(r, g, b)
+  //   //fill(0, 0, i*spacing)
+  //   // fill(colorValue%255);
+  //   // if(i%2 === 0) {
+  //   //   fill(0);
+  //   // }  else {
+  //   //     fill(255);
+  //   // }                             //loop                         instead of circle(75, 200, 100);
+  //   // circle(spacing + i*spacing, 200, 40);
+  //   // rect(spacing + i*spacing, 250, 50, 50);
+  //   // colorValue +=1;                           //idk to be honest                        circle(225, 200, 100);
+  // }  
                                               // continues                              circle(375, 200, 100);
                                                         //                              circle -----------
     // Recap 1: Repeating Circles       
