@@ -31,9 +31,11 @@ function draw() {
   // Task 3: Row of Circles
 
   // Task 4: Grid of Circles
-}
+
 
   // Task 5 Circle in the centre
   
 rect(0, 100, width, 400);
 circle(width/2, height/2, 100);
+
+}
