@@ -34,4 +34,4 @@ function draw() {
 }
 
   // Task 5 Circle in the centre
-  circle(width/2, height/2)
+  circle(width/2, height/2, 50)
