@@ -32,7 +32,7 @@ function draw() {
   let diameter = 30;
   let numCircle = 5;
   let totalWidth = diameter * numCircle
-  let startX = width 
+  let startX = (width - tot)
 
   // Task 4: Grid of Circles
 
