@@ -34,5 +34,5 @@ function draw() {
 }
 
   // Task 5 Circle in the centre
-  rect(0, 100, width, height);
+  rect(0, 100, width, height-100);
   circle(width/2, height/2, 100);
