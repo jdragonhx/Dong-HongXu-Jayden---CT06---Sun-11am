@@ -8,7 +8,7 @@ function setup() {
     
 function draw() {                      
   for (let i = 0; i < 11; i++) {
-    //firr
+    //fill(i)
     //fill(0, 0, i*spacing)                              //loop                         instead of circle(75, 200, 100);
     circle(spacing + i*spacing, 200, 40);               //idk to be honest                        circle(225, 200, 100);
   }  
