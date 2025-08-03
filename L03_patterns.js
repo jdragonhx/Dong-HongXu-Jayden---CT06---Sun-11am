@@ -2,13 +2,14 @@ function setup() {
   createCanvas(600, 600);
   background(220);
   }
-  
-function draw() {
-  fill(i * 50)                 //notes -->      -->       -->       
-  for (let i = 0; i < 11; i++) {  //loop                        instead of circle(75, 200, 100);
-    circle(50 + i*50, 200, 40);    //idk to be honest                        circle(225, 200, 100);
-    }                            // continues                              circle(375, 200, 100);
-                                           //                              circle -----------
+    
+function draw() {                      
+  for (let i = 0; i < 11; i++)
+    fill(i * 50)                              //loop                         instead of circle(75, 200, 100);
+    circle(50 + i*50, 200, 40);               //idk to be honest                        circle(225, 200, 100);
+    
+                                              // continues                              circle(375, 200, 100);
+                                                        //                              circle -----------
     // Recap 1: Repeating Circles       
 
   // Task 1: Colour Gradient
