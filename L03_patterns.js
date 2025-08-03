@@ -2,7 +2,7 @@ let spacing = 50;
 // let colorValue = 0;
 
 function setup() {
-  createCanvas(600, 600);
+  createCanvas(600, 60);
   background(220);
   }
     
