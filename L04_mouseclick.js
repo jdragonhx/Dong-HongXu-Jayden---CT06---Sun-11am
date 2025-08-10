@@ -11,12 +11,12 @@ function draw() {
     // //     fill(0, i*50, 0)
     // //     circle(50+ i*50, 50 + i*50, 50)
     // }
-    fill(shapeColor)
+    fill(shapeColor);
     circle(width/2, height/2, 100);
 }
 
 function mousePressed() {
-    shapeColor = 'red'
+    shapeColor = 'red';
 }
 
 function mouseReleased() {
