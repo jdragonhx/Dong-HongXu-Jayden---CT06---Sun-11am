@@ -35,7 +35,8 @@ function draw() {
   //let startX = (width - totalWidth)/2 + diameter/2
   let diameter = circleDiameter/2
   let startX =  diameter
-  let hdiameter = diameter
+  let hdiameter = circleDiameter/2
+  
 
 
   for(let i=0; i<5; i++) {
