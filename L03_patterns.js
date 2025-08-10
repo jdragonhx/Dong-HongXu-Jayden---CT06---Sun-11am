@@ -31,10 +31,10 @@ function draw() {
   // Task 3: Row of Circles
   let diameter = 50;
   let numCircle = 5;
-  let totalWidth = diameter * numCircle
+  let totalWidth = diameter * numCircle;
   //let startX = (width - totalWidth)/2 + diameter/2
-  let startX = (width - totalWidth)/2 + diameter/2
-  let startY = (height - totalWidth)/2 +diameter/2
+  let startX = (width - totalWidth)/2 + diameter/2;
+  let startY = (height - totalWidth)/2 +diameter/2;
 
   for (let j=0; j<5; j++) {
 
