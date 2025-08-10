@@ -34,7 +34,7 @@ function draw() {
   let totalWidth = diameter * numCircle
   //let startX = (width - totalWidth)/2 + diameter/2
   let startX = (width - totalWidth)/2 + diameter/2
-  let startY = (height - totalWidth)/2 +
+  let startY = (height - totalWidth)/2 +diameter/2
 
 
   for(let i=0; i<5; i++) {
