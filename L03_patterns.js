@@ -36,11 +36,14 @@ function draw() {
   let startX = (width - totalWidth)/2 + diameter/2
   let startY = (height - totalWidth)/2 +diameter/2
 
+  for (let j=0; j<5; j++) {
+
+    y = startY + j*diameter;
 
   for(let i=0; i<5; i++) {
     circle(startX + i*diameter, height/2, diameter);
 
-  }
+    }
 
   // Task 4: Grid of Circles
 
@@ -52,4 +55,5 @@ function draw() {
 
 
 
+  }
 }
