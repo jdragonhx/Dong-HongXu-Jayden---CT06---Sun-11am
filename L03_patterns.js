@@ -42,9 +42,6 @@ function draw() {
       circle(startX + i*diameter, diameter/2, diameter);
 }
 
-
-
-
   // Task 4: Grid of Circles
 
 
