@@ -40,13 +40,10 @@ function draw() {
   for(let a=0; a<5; a++) {
     for(let i=0; i<5; i++) {
       circle(startX + i*diameter, diameter/2, diameter);
-  }
+}
 
 
-  for(let i=0; i<5; i++) {
-    circle(startX + i*diameter, diameter/2, diameter);
 
-  }
 
   // Task 4: Grid of Circles
 
@@ -58,4 +55,5 @@ function draw() {
 
 
 
+}
 }
