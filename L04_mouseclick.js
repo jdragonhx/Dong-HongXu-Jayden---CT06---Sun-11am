@@ -24,3 +24,7 @@ function mouseReleased() {
     // shapeColor = color(random(255), random(255), random(255));
     shapeColor = 'white';
 }
+
+function mouseMoved() {
+    circle(mouseX, mouseY, 50)
+}
