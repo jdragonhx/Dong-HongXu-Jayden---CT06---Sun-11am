@@ -12,3 +12,7 @@ function draw() {
     // //     circle(50+ i*50, 50 + i*50, 50)
     // }
 }
+
+function mousePressed() {
+    
+}
