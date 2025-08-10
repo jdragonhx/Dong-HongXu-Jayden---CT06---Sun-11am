@@ -21,5 +21,5 @@ function mousePressed() {
 
 function mouseReleased() {
     // shapeColor = 'lime'
-    shapeColor
+    shapeColor = color(random)
 }
