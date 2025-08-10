@@ -16,10 +16,10 @@ function draw() {
 }
 
 function mousePressed() {
-    shapeColor = 'red';
+    shapeColor = color(random(255), random(255), random(255));
 }
 
 function mouseReleased() {
     // shapeColor = 'lime'
-    shapeColor = color(random(255), random(255), random(255));
+    // shapeColor = color(random(255), random(255), random(255));
 }
