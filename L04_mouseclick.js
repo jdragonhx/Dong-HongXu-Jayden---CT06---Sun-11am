@@ -3,7 +3,7 @@ let shapeColor = 'blue'; //initial color
 function setup() {
     createCanvas(600, 600);
     background(220);
-    fill(random(255), random(255), random(255))
+
 
 }
 
@@ -27,5 +27,6 @@ function mouseReleased() {
 }
 
 function mouseMoved() {
+        fill(random(255), random(255), random(255))
     circle(mouseX, mouseY, 50)
 }
