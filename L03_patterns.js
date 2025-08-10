@@ -38,7 +38,7 @@ function draw() {
 
   for (let j=0; j<5; j++) {
 
-    y = startY + j*diameter;
+      y = startY + j*diameter;
 
       for(let i=0; i<5; i++) {
         circle(startX + i*diameter, height/2, diameter);
