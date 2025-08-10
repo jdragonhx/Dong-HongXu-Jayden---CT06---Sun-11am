@@ -11,7 +11,7 @@ function draw() {
     // //     fill(0, i*50, 0)
     // //     circle(50+ i*50, 50 + i*50, 50)
     // }
-    fill
+    fill()
 }
 
 function mousePressed() {
