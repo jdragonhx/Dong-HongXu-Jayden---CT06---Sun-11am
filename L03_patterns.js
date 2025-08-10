@@ -29,19 +29,15 @@ function draw() {
   // Task 2: Colour Loop
 
   // Task 3: Row of Circles
-  let circleDiameter = 50;
+  let diameter = 50;
   let numCircle = 5;
   let totalWidth = diameter * numCircle
   //let startX = (width - totalWidth)/2 + diameter/2
-  let diameter = circleDiameter/2
-  let startX =  diameter
-  let hdiameter = circleDiameter/2
-
-  for(let i=0; i<5; i++) 
+  //let startX = (width - totalWidth)/2 + diameter/2
 
 
   for(let i=0; i<5; i++) {
-    circle(startX + i*diameter, diameter/2, diameter);
+    circle(startX + i*diameter, height/2, diameter);
 
   }
 
