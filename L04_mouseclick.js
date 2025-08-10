@@ -20,5 +20,5 @@ function mousePressed() {
 }
 
 function mouseReleased() {
-    shapeColor = 'lime'
+    shapeColor = ''
 }
