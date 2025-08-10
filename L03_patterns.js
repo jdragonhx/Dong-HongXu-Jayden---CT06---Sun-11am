@@ -33,8 +33,8 @@ function draw() {
   let numCircle = 5;
   let totalWidth = diameter * numCircle
   //let startX = (width - totalWidth)/2 + diameter/2
-  let diameter = 
-  let startX =  circleDiameter/2
+  let diameter = circleDiameter/2
+  let startX =  diameter
   let hdiameter = diameter/2
 
 
