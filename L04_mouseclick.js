@@ -3,7 +3,7 @@ let shapeColor = 'blue'; //initial color
 function setup() {
     createCanvas(600, 600);
     background(220);
-    fill()
+    fill(random(255), random(255), random(255))
 
 }
 
