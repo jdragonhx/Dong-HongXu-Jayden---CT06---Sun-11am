@@ -27,6 +27,6 @@ function mouseReleased() {
 }
 
 function mouseMoved() {
-        fill(random(255), random(255), random(255))
+    fill(random(255), random(255), random(255))
     circle(mouseX, mouseY, 50)
 }
