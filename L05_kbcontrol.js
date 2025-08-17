@@ -3,7 +3,7 @@ let circleSize = 5
 let shapeColor = 'blue'; //initial color
 
 function setup() {
-    createCanvas(600, 600);
+    createCanvas(800, 800);
     background(220);
     noStroke();
 
