@@ -40,7 +40,7 @@ function draw() {
 
 
     let topLeftX = centerX - rectSize/2
-    let topLeftY = 
+    let topLeftY = centerY - 
 
 
 
