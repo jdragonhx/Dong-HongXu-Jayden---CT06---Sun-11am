@@ -68,7 +68,7 @@ function keyPressed() {
         //random fill
         fill(random(255), random(255), random(255));
         //create circle
-        circle(x, y, z, )
+        circle(x, y, z, s, s)
     }
 }
 
