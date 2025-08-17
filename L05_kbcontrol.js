@@ -65,6 +65,7 @@ function keyPressed() {
         // random postition
         let s = random (10,80);
         //random pos
+        let x  
         //random fill
         fill(random(255), random(255), random(255));
         //create circle
