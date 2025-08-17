@@ -35,5 +35,6 @@ function setup() {
 function draw() {
     background(220);
     
-    let centerX = 
+    let centerX = width/2
+    let 
 }
