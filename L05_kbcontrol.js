@@ -59,7 +59,7 @@ function setup() {
 
 
 function keyPressed() { 
-    let count = floor(ramdom(5, 21));
+    let count = floor(random(5, 21));
     
     for(let i=0; i<count; i++) {
         // random postition
