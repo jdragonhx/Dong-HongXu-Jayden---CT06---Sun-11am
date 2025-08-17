@@ -59,8 +59,11 @@ function setup() {
 
 
 function keyPressed() { 
-    let count = ramdom(5, 21);
+    let count = floor(ramdom(5, 21));
     
+    for(let i=0; i<count; i++) {
+        
+    }
 }
 
 function keyReleased() {
