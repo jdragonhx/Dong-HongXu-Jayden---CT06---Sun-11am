@@ -62,4 +62,6 @@ function keyPressed() {
     circle
 }
 
-function keyReleased() {}
+function keyReleased() {
+    background(220)
+}
