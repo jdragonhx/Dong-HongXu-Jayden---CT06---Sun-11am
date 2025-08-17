@@ -63,7 +63,8 @@ function keyPressed() {
     
     for(let i=0; i<count; i++) {
         // random postition
-        let s = random 
+        let s = random (10,80);
+        
         fill(random(255), random(255), random(255));
         
     }
