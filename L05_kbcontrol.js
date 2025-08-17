@@ -20,6 +20,6 @@ function mouseDragged() {
     circleSize += 0.5
 }
 
-function mouseReleased() {
-    circleSize = 5;
-}
+// function mouseReleased() {
+//     circleSize = 5;
+// }
