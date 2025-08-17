@@ -1,4 +1,5 @@
 // write your codes here
+let circle 
 let shapeColor = 'blue'; //initial color
 
 function setup() {
@@ -8,7 +9,7 @@ function setup() {
 
 function mousePressed() {
     shapeColor = color(random(255), random(255), random(255))
-    circle 
+    c
 }
 
 }
