@@ -21,5 +21,5 @@ function mouseDragged() {
 }
 
 function mouseReleased() {
-    
+    circleSize = 5
 }
