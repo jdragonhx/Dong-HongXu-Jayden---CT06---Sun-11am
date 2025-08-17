@@ -67,7 +67,8 @@ function keyPressed() {
         //random pos
         //random fill
         fill(random(255), random(255), random(255));
-        
+        //create circle
+        circle 
     }
 }
 
