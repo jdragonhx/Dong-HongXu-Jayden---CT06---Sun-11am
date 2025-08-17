@@ -19,3 +19,7 @@ function mouseDragged() {
     circle(mouseX, mouseY,circleSize, circleSize);
     circleSize += 0.5
 }
+
+function mouseReleased() {
+    
+}
