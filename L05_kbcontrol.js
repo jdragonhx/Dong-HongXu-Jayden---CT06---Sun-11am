@@ -63,5 +63,6 @@ function keyPressed() {
 }
 
 function keyReleased() {
-    background(220)
+    background(220);
+
 }
