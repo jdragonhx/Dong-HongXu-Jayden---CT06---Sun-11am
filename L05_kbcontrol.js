@@ -43,5 +43,5 @@ function draw() {
 
 
 
-    rect(topLeftX, topLeftY, rectSize, rect)
+    rect(topLeftX, topLeftY, rectSize, rectSize)
 }
