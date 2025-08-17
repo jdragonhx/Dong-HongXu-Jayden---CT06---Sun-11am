@@ -32,5 +32,5 @@ function setup() {
 // }
 
 function mousePressed() {
-    fill(random())
+    fill(random(255), random(255))
 }
