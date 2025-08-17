@@ -39,7 +39,7 @@ function draw() {
     let centerY = height/2
 
 
-    lettop
+    lettopLeft = centerX 
 
 
 
