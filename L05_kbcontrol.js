@@ -8,10 +8,10 @@ function setup(){
     noStroke();
 }
 
-function mousePressed(){
-    shapeColor= color(random(255), random(255),random(255))
-    circleSize =5;
-}
+// function mousePressed(){
+//     shapeColor= color(random(255), random(255),random(255))
+//     circleSize =5;
+// }
 
 
 function mouseDragged(){
