@@ -28,4 +28,6 @@ function setup(){
 
 let rectSize = 50
 
-function setup()
+function setup() {
+    createCanvas 
+}
