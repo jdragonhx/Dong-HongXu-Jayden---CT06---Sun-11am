@@ -7,7 +7,7 @@ function setup() {
     noStroke();
 
 function mousePressed() {
-    shapeColor (random(255), random(255), random(255))
+    shapeColor = color(random(255), random(255), random(255))
 }
 
 }
