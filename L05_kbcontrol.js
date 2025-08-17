@@ -14,12 +14,13 @@ function setup(){
 // }
 
 
-function mouseDragged(){
-    fill(shapeColor);
-    ellipse(mouseX,mouseY, circleSize,circleSize);
-    circleSize += 10;
+// function mouseDragged(){
+//     fill(shapeColor);
+//     ellipse(mouseX,mouseY, circleSize,circleSize);
+//     circleSize += 10;
 
-}
+// }
 // function mouseReleased() {
 //     circleSize = 5;
 // }
+
