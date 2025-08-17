@@ -63,14 +63,14 @@ function keyPressed() {
     
     for(let i=0; i<count; i++) {
         // random postition
-        let s = random (10,80);
+        let s = random(10,80);
         //random pos
-        let x = random(s/2, width - s/2);jghjkigcvghhlkjvh
+        let x = random(s/2, width - s/2);
         let y = random(s/2, height - s/2);
         //random fill
         fill(random(255), random(255), random(255));
         //create circle
-        circle(x, y  , s, s)
+        ellipse(x, y  , s, s)
     }
 }
 
