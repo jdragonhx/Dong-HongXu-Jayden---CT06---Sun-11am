@@ -1,5 +1,5 @@
 // write your codes here
-let circleSize = 5
+let circleSize = 5;
 let shapeColor = 'blue'; //initial color
 
 function setup() {
