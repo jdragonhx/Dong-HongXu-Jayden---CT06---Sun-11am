@@ -62,6 +62,7 @@ function keyPressed() {
     let count = floor(ramdom(5, 21));
     
     for(let i=0; i<count; i++) {
+        // random post
         fill(random(255), random(255), random(255));
         
     }
