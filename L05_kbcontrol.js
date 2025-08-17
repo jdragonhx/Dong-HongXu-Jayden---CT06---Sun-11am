@@ -59,7 +59,7 @@ function setup() {
 
 
 function keyPressed() { 
-    circle
+    let count = ramdom()
 }
 
 function keyReleased() {
