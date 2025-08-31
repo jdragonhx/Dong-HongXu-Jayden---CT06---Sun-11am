@@ -49,39 +49,60 @@
 
 // -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-function setup() { 
-    createCanvas(400, 400);
-    background(220);
-    noStroke();
+// function setup() { 
+//     createCanvas(400, 400);
+//     background(220);
+//     noStroke();
 
+// }
+
+
+
+// function keyPressed() { 
+//     let count = floor(random(5, 21));
+    
+//     for(let i=0; i<count; i++) {
+//         // random postition
+//         let s = random(10,80);
+//         //random pos
+//         let x = random(s/2, width - s/2);
+//         let y = random(s/2, height - s/2);
+//         //random fill
+//         fill(random(255), random(255), random(255));
+//         //create circle
+//         ellipse(x, y  , s, s)
+//     }
+// }
+
+// function keyReleased() {
+//     background(220);
+
+// }
+
+// let a = 5;
+// let b = "5";
+// let c = 7;
+
+// console.log(a === b);
+
+//-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+let showCircle = false;
+
+function setup() {
+    createCanvas(600, 600);
 }
 
-
-
-function keyPressed() { 
-    let count = floor(random(5, 21));
-    
-    for(let i=0; i<count; i++) {
-        // random postition
-        let s = random(10,80);
-        //random pos
-        let x = random(s/2, width - s/2);
-        let y = random(s/2, height - s/2);
-        //random fill
-        fill(random(255), random(255), random(255));
-        //create circle
-        ellipse(x, y  , s, s)
+function draw() {
+    background(220);
+    if(showCircle) {
+        fill(random(255), random(255), random(255))
+        circle(width/2, height/2, 100);
     }
 }
 
-function keyReleased() {
-    background(220);
-
+function keyPressed() {
+    if  (key == 'c') {
+    showCircle =!  showCircle;
+    }
 }
-
-let a = 5;
-let b = "5";
-let c = 7;
-
-console.log(a === b);
-
