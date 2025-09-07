@@ -111,7 +111,7 @@
 
 let showCircle = false
 let showSquare = false
-let show = false
+let showTriangle = false
 
 function setup() {
     createCanvas(220, 200)
