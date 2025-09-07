@@ -122,6 +122,6 @@ function draw() {
 
 function keyPressed() {
     if (key === 'c') {
-        showCircle = !showCircle; //Toggle the 
+        showCircle = !showCircle; //Toggle the boolean
     }
 }
