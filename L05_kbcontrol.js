@@ -145,8 +145,8 @@ function keyPressed() {
 }
 
 function keyPressed() {
-    if (key === 'r') {
-        showCircle = !showCircle; //Toggle the boolean
+    if (key === 's') {
+        showSquare = !showCircle; //Toggle the boolean
     }
 }
 
