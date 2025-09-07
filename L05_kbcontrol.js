@@ -87,22 +87,23 @@
 
 //-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-let showCircle = false;
+// let showCircle = false;
 
-function setup() {
-    createCanvas(600, 600);
-}
+// function setup() {
+//     createCanvas(600, 600);
+// }
 
-function draw() {
-    background(220);
-    if(showCircle) {
-        fill(random(255), random(255), random(255))
-        circle(width/2, height/2, 100);
-    }
-}
+// function draw() {
+//     background(220);
+//     if(showCircle) {
+//         fill(random(255), random(255), random(255))
+//         circle(width/2, height/2, 100);
+//     }
+// }
 
-function keyPressed() {
-    if  (key == 'c') {
-    showCircle =!  showCircle;
-    }
-}
+// function keyPressed() {
+//     if  (key == 'c') {
+//     showCircle =!  showCircle;
+//     }
+// }
+
