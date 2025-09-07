@@ -126,14 +126,9 @@ function draw() {
     }
 
 
-function keyPressed() {
-    if (key === 's') {
-        showSquare = !showSquare; //Toggle the boolean
-    }
-}
 
-function keyPressed() {
+
+
     if (key === 't') {
         showTriangle = !showTriangle; //Toggle the boolean
     }
-}
