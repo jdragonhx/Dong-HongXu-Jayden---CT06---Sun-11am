@@ -139,4 +139,6 @@ function setup() {
     //this is required
 }
 
-function keyPressed() {}
+function keyPressed() {
+    console.log(key)
+}
