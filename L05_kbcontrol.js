@@ -131,5 +131,5 @@ if (key === 's') {
 
 
 if (key === 't') {
-    triangle(width)
+    triangle(width/2, height/2, )
 }
