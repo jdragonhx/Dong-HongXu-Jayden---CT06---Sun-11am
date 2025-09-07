@@ -126,7 +126,7 @@ if (key === 'c') {
 }
         
 if (key === 's') {
-    rect 
+    rect(width/2-25, height)
 }
 
 
