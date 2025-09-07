@@ -146,12 +146,12 @@ function keyPressed() {
 
 function keyPressed() {
     if (key === 's') {
-        showSquare = !showCircle; //Toggle the boolean
+        showSquare = !showSquare; //Toggle the boolean
     }
 }
 
 function keyPressed() {
-    if (key === 'c') {
+    if (key === 't') {
         showCircle = !showCircle; //Toggle the boolean
     }
 }
