@@ -114,22 +114,17 @@ function setup() {
     createCanvas(220, 200)
 }
 
-function draw() {
-    background(220);
-
-}
-
 
 function draw() {
     background(220);
 
 }
 
-function keyPressed() {
+
     if (key === 'c') {
         showCircle = !showCircle; //Toggle the boolean
     }
-}
+
 
 function keyPressed() {
     if (key === 's') {
