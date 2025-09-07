@@ -152,6 +152,6 @@ function keyPressed() {
 
 function keyPressed() {
     if (key === 't') {
-        showCircle = !showCircle; //Toggle the boolean
+        showTriangle = !showCircle; //Toggle the boolean
     }
 }
