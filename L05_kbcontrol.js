@@ -118,9 +118,6 @@ function setup() {
 function draw() {
     background(220);
 
-
-
-
 if (key === 'c') {
     circle(width/2, height/2, 50)
 }
