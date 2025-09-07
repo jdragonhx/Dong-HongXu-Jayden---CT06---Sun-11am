@@ -122,13 +122,13 @@ function draw() {
 
 
     if (key === 'c') {
-        showCircle = !showCircle; //Toggle the boolean
-    }
+        
 
 
 
 
 
     if (key === 't') {
-        showTriangle = !showTriangle; //Toggle the boolean
+       
     }
+ }
