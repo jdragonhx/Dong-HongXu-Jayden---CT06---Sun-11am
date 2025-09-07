@@ -145,7 +145,7 @@ function keyPressed() {
 }
 
 function keyPressed() {
-    if (key === '') {
+    if (key === 'r') {
         showCircle = !showCircle; //Toggle the boolean
     }
 }
