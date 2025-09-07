@@ -119,12 +119,6 @@ function draw() {
 
 }
 
-function draw() {
-    background(220);
-    if (showSquare) {
-        rect(width / 2 - 25, height / 2 - 25, 50, 50);
-    }
-}
 
 function draw() {
     background(220);
