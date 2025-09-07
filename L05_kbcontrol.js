@@ -122,7 +122,7 @@ function draw() {
 
 
 if (key === 'c') {
-    circle 
+    circle(width/2, height/2)
 }
         
 
