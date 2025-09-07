@@ -141,5 +141,5 @@ function setup() {
 
 function keyPressed() {
     console.log("key:", key)
-    console.log("keyCode:", keycode)
+    console.log("keyCode:", keyCode)
 }
