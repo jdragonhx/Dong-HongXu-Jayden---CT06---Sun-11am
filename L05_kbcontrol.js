@@ -143,3 +143,15 @@ function keyPressed() {
         showCircle = !showCircle; //Toggle the boolean
     }
 }
+
+function keyPressed() {
+    if (key === '') {
+        showCircle = !showCircle; //Toggle the boolean
+    }
+}
+
+function keyPressed() {
+    if (key === 'c') {
+        showCircle = !showCircle; //Toggle the boolean
+    }
+}
