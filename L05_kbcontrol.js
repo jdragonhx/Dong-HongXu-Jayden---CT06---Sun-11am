@@ -121,14 +121,15 @@ function draw() {
 }
 
 
-    if (key === 'c') {
+if (key === 'c') {
+
+}
         
 
 
 
 
 
-    if (key === 't') {
+if (key === 't') {
        
-    }
- }
+}
