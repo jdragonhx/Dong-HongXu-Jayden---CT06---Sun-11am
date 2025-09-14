@@ -102,7 +102,8 @@ function setup() {
 function draw() {
     background(220)
 
-    x +
+    x += speedX;
+    y 
 
     noStroke();
     circle(x, y, size);
