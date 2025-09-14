@@ -38,4 +38,5 @@
 
 //recap
 
-let static
+let staticImage;
+let soundeffect
