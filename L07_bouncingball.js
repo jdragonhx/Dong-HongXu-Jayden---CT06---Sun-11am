@@ -55,7 +55,8 @@ function setup() {
 function draw() {
     background('lightblue')
 
-    if(keyIsDown())
+    if(keyIsDown(RIGHT_ARROW))
+        
 
     image(staticImage, x, y, 80, 80)
 }
