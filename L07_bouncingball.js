@@ -8,7 +8,8 @@ function setup() {
 function draw() {
     background(220);
 
-    //limit 
+    //constrain within the canvas
+    
 
     if(keyIsDown(RIGHT_ARROW)) {
         x += 2;
