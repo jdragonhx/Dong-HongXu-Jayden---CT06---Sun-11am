@@ -8,6 +8,8 @@ function setup() {
 function draw() {
     background(220);
 
+    //limit 
+
     if(keyIsDown(RIGHT_ARROW)) {
         x += 2;
     }
