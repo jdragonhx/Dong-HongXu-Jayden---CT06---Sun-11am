@@ -58,8 +58,8 @@ function setup() {
 function draw() {
     background('lightblue');
 
-    x = constrain(x, y, width-80);
-    y = constrain(x, y, height-80);
+    x = constrain(x, y, width-imgwidth);
+    y = constrain(x, y, height-imgwidth);
 
     if(keyIsDown(RIGHT_ARROW)) {
         x += speed;
@@ -74,8 +74,15 @@ function draw() {
     }
 
     if(keyIsDown(DOWN_ARROW)) {
-        x += speed;
+        y += speed;
     }
 
-    image(staticImage, x, y, 80, 80);
+    image(staticImage, x, y, imgwidth, imgheight);
+}
+
+function keyPressed() {
+    if(keyCode == 32) {
+        imgwidth = 40;
+        soundEffect.pause();
+    }
 }
