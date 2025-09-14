@@ -104,5 +104,5 @@ function draw() {
 
 
 
-    noSte
+    noStroke();
 }
