@@ -55,6 +55,8 @@ function setup() {
 function draw() {
     background('lightblue')
 
+    x = con
+
     if(keyIsDown(RIGHT_ARROW)) {
         x += speed;
     }
