@@ -40,6 +40,8 @@
 
 let staticImage;
 let soundEffect;
+let x;
+let y;
 
 function preload() {
     staticImage = loadImage('assets/pico-a.png');
