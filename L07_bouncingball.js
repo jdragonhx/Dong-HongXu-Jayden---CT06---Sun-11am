@@ -58,7 +58,7 @@ function setup() {
 function draw() {
     background('lightblue');
 
-    x = constrain(x, y, width-imgwidth);
+    x = constrain(x,0, width-imgwidth);
     y = constrain(x, y, height-imgwidth);
 
     if(keyIsDown(RIGHT_ARROW)) {
