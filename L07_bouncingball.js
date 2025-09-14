@@ -86,3 +86,5 @@ function keyPressed() {
         soundEffect.pause();
     }
 }
+
+function keyReleased()
