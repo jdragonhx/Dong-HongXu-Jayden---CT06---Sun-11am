@@ -105,5 +105,5 @@ function draw() {
 
 
     noStroke();
-    circle(XMLDocument, yield)
+    circle(x)
 }
