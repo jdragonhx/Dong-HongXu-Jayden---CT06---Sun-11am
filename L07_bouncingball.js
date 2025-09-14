@@ -59,7 +59,7 @@ function draw() {
         x += speed;
     }
 
-    if(keyIsDown(RIGHT_ARROW)) {
+    if(keyIsDown(LEFT_ARROW)) {
         x += speed;
     }
 
