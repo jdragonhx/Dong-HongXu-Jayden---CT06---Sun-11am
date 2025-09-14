@@ -109,8 +109,6 @@ function setup() {
 function draw() {
     // background(220)
 
-    fill(random(255), random(255), random(255))
-
     if(x-size/2<=0 || x+size/2>=width) {
         speedX *=-30;
     }
