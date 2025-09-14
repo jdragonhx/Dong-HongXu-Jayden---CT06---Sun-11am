@@ -56,8 +56,8 @@ function draw() {
     background('lightblue')
 
     x = constrain(x, y, width-80);
+    y = constrain(x, y, height-80);
 
-    
     if(keyIsDown(RIGHT_ARROW)) {
         x += speed;
     }
