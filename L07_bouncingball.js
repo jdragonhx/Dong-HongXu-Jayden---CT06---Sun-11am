@@ -87,4 +87,6 @@ function keyPressed() {
     }
 }
 
-function keyReleased()
+function keyReleased() {
+    imgwidth = 80
+}
