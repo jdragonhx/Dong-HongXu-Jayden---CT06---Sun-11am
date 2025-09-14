@@ -38,4 +38,4 @@
 
 //recap
 
-let stac
+let static
