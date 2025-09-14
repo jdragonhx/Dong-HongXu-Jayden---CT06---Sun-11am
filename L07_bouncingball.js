@@ -109,6 +109,8 @@ function setup() {
 function draw() {
     background(220)
 
+    if()
+
     x += speedX;
     y += speedY;
 
