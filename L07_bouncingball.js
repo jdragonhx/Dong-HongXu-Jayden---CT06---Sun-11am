@@ -96,7 +96,7 @@
 
 let x = 300;
 let y = 200;
-let size = 30;
+let size = ;
 let speedX = 1;
 let speedY = 1;
 
