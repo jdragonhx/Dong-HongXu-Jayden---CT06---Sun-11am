@@ -102,7 +102,7 @@ function setup() {
 function draw() {
     background(220)
 
-
+    x +
 
     noStroke();
     circle(x, y, size);
