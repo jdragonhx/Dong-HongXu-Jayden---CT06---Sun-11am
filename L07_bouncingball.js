@@ -1,5 +1,5 @@
 let x = 200;
-let y 
+let y = 200;
 
 function setup() {
     createCanvas(400, 400);
