@@ -52,11 +52,11 @@ function preload() {
 }
 
 function setup() {
-    createCanvas(400, 400)
+    createCanvas(400, 400);
 }
 
 function draw() {
-    background('lightblue')
+    background('lightblue');
 
     x = constrain(x, y, width-80);
     y = constrain(x, y, height-80);
