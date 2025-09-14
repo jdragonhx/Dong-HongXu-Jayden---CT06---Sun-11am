@@ -103,7 +103,7 @@ function draw() {
     background(220)
 
     x += speedX;
-    y +=
+    y += StylePropertyMapReadOnly;
 
     noStroke();
     circle(x, y, size);
