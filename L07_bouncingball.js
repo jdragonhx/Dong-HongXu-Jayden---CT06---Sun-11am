@@ -29,7 +29,7 @@ function draw() {
         y += 2;
     }
 
-    fill(r,)
+    fill(r,g, 255)
 
     circle(x, y, 50)
 }
