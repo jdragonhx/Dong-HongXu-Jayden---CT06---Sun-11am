@@ -100,5 +100,9 @@ function setup() {
 }
 
 function draw() {
-    
+
+
+
+
+    noSte
 }
