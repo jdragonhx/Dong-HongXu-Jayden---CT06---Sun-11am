@@ -77,5 +77,5 @@ function draw() {
         x += speed;
     }
 
-    image(staticImage, x, y, 80, 80)
+    image(staticImage, x, y, 80, 80);
 }
