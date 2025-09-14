@@ -112,11 +112,11 @@ function draw() {
     fill(random(255), random(255), random(255))
 
     if(x-size/2<=0 || x+size/2>=width) {
-        speedX *=-100;
+        speedX *=-30;
     }
 
     if(y-size/2<=0 || y+size/2>=height) {
-        speedY *=-100;
+        speedY *=-30;
     }
 
     x += speedX;
