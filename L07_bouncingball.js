@@ -18,11 +18,11 @@ function draw() {
 
 
     if(keyIsDown(UP_ARROW)) {
-        x += 2;
+        y += 2;
     }
 
     if(keyIsDown(LEFT_ARROW)) {
-        x -= 2;
+        y -= 2;
     }
 
 
