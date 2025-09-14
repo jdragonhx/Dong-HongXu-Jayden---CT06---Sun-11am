@@ -105,5 +105,5 @@ function draw() {
 
 
     noStroke();
-    circle(x)
+    circle(x, y, size);
 }
