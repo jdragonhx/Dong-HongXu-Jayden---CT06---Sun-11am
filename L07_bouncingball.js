@@ -9,7 +9,7 @@ function draw() {
     background(220);
 
     //constrain within the canvas
-    x = consrtrain(x, 50)
+    x = consrtrain(x, 25, )
 
     if(keyIsDown(RIGHT_ARROW)) {
         x += 2;
