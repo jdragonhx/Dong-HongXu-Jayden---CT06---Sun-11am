@@ -10,7 +10,7 @@ function draw() {
 
     //constrain within the canvas
     x = constrain(x, 25, width-25)
-    y = constrain(y, )
+    y = constrain(y, 25, height-25)
 
     if(keyIsDown(RIGHT_ARROW)) {
         x += 2;
