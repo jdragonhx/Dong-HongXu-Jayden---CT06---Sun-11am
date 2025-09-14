@@ -17,7 +17,7 @@ function draw() {
     }
 
 
-    if(keyIsDown(RIGHT_ARROW)) {
+    if(keyIsDown(UP_ARROW)) {
         x += 2;
     }
 
