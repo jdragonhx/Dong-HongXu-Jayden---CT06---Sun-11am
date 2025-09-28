@@ -13,5 +13,9 @@ function draw() {
 
     text("Bounce!", x, height/20);
 
-    x += speed
+    x += speed;
+
+    if(x<=0 || x>= (width-4*24)) {
+        speed *= -1
+    }
 }
