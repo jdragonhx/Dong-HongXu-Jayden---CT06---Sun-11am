@@ -61,5 +61,23 @@
 
 //Task 3
 
-let favFoods = ["Pizza", "Burger", "Sushi", "Tacos", "Pasta"]
-;
+let favFoods = ["Pizza", "Burger", "Sushi", "Tacos", "Pasta"];
+
+function setup() {
+    createCanvas(600, 600)
+
+    fill(0);
+    textSize(24);
+    textAlign(CENTER);
+}
+
+function draw() {
+
+    background(220);
+
+    text("My favourtie foods are: ", width/2, 50);
+
+    for (let i=0; i<favFoods.length; i++) {
+        text((i+1) + "." + favFoods[i], width/2, 80 + i*50);
+    }
+}
