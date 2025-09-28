@@ -34,7 +34,7 @@ function draw() {
     //text("My favourite foods are: ", width/2, 50); 
     
 
-    for (let i=0; i<favFoods.length; i++) {
+    for (let i=0; i<storyText.length; i++) {
         text(storyText[i], width/2, yPos + i*50); 
     }
 
