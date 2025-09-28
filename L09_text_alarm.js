@@ -5,5 +5,9 @@ function setup() {
 
     textSize(24);
     textAlign(LEFT);
+
+}
+
+function draw() {
     
 }
