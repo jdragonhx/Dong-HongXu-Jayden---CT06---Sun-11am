@@ -61,4 +61,4 @@
 
 //Task 3
 
-let favFoods = ["Pizza", ]
+let favFoods = ["Pizza", "Burger", ""]
