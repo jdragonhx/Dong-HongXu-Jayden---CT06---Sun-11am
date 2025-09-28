@@ -18,7 +18,7 @@ function draw() {
 
     x += speed;
 
-    if(x<=0 || x>= (width-3*24)) {
+    if(x<=0 || x>= (width-3.5*24)) {
         speed *= -1
     }
 
