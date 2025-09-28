@@ -94,34 +94,46 @@
 
 //-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-let x = 300;
-let y = 200;
-let size = 50;
-let speedX = 1;
-let speedY = 1;
+// let x = 300;
+// let y = 200;
+// let size = 25;
+// let speedX = 1;
+// let speedY = 1;
 
 
-function setup() {
-    createCanvas(600,400);
-    background(220);
-}
+// function setup() {
+//     createCanvas(600,400);
+//     background(220);
+// }
 
-function draw() {
-    // background(220)
+// function draw() {
+//     // background(220)
 
-    if(x-size/2<=0 || x+size/2>=width) {
-        speedX *=-30;
-            //fill(random(255), random(255), random(255))
-    }
+//     if(x-size/2<=0 || x+size/2>=width) {
+//         speedX *=-1;
+//         fill(random(255), random(255), random(255))
+//             //fill(random(255), random(255), random(255))
+//     }
 
-    if(y-size/2<=0 || y+size/2>=height) {
-            //fill(random(255), random(255), random(255))
-        speedY *=-30;
-    }
+//     if(y-size/2<=0 || y+size/2>=height) {
+//             //fill(random(255), random(255), random(255))
+//         speedY *=-1;
+//         fill(random(255), random(255), random(255))
+//     }
 
-    x += speedX;
-    y += speedY;
+//     x += speedX;
+//     y += speedY;
 
-    noStroke();
-    circle(x, y, size);
-}
+//     noStroke();
+//     circle(x, y, size);
+// }
+
+// function keyPressed() {
+// if(keyCode === UP_ARROW) {
+//         speedX *= 1.2;
+//         speedY *= 1.2;
+// }   else if(keyCode === DOWN_ARROW) {
+//         speedX *= 0.8
+//         speedY *= 0.8
+// }
+// }
