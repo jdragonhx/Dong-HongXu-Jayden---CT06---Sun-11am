@@ -13,5 +13,5 @@ function draw() {
 
     text("Bounce!", x, height/20);
 
-    x += StereoPannerNode;
+    x += speed
 }
