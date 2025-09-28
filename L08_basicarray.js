@@ -107,3 +107,5 @@ function draw() {
         text((i+1) + "." + favFoods[i], width/2, yPos + i*50);
     }
 }
+
+yPos -=
