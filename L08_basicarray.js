@@ -117,30 +117,31 @@
 
 //Task Extra
 
-let favFoods = ["Directed By", "Robert B"]; 
-let yPos; 
+// let favFoods = ["Directed By", "Robert B"]; 
+// let yPos; 
 
-function setup() {
-    createCanvas(600, 600); 
+// function setup() {
+//     createCanvas(600, 600); 
 
-    fill(255, 255, 0); 
-    textSize(24);
-    textAlign(CENTER); 
+//     fill(255, 255, 0); 
+//     textSize(24);
+//     textAlign(CENTER); 
 
-    yPos = height; 
-}
+//     yPos = height; 
+// }
 
-function draw() {
+// function draw() {
 
-    background(0); 
+//     background(0); 
 
-    //text("My favourite foods are: ", width/2, 50); 
+//     //text("My favourite foods are: ", width/2, 50); 
     
 
-    for (let i=0; i<favFoods.length; i++) {
-        text(favFoods[i], width/2, yPos + i*50); 
-    }
+//     for (let i=0; i<favFoods.length; i++) {
+//         text(favFoods[i], width/2, yPos + i*50); 
+//     }
 
-    yPos -=1; 
+//     yPos -=1; 
 
-}
+// }
+
