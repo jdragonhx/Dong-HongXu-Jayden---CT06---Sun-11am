@@ -15,7 +15,6 @@ let storyText = [
     "May the Code be with you!"
 ];
 
-let favFoods = ["Pizza", "Burger", "Sushi", "Tacos", "Pasta"]; 
 let yPos; 
 
 function setup() {
