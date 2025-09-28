@@ -40,22 +40,22 @@
 
 //Task 2
 
-function setup() {
-    createCanvas(600,400)
-}
+// function setup() {
+//     createCanvas(600,400)
+// }
 
-function draw() {
-    background(0);
-    textSize(24)
-    fill(255,255,0);
-    text("My name is usless", 50, 50)
+// function draw() {
+//     background(0);
+//     textSize(24)
+//     fill(255,255,0);
+//     text("My name is usless", 50, 50)
 
-    textSize(16)
-    fill(255,0,0);
-    text("My age is 0", 50, 100);
-    text("My faveourite acticity is getting scolded", 50, 150)
+//     textSize(16)
+//     fill(255,0,0);
+//     text("My age is 0", 50, 100);
+//     text("My faveourite acticity is getting scolded", 50, 150)
 
-}
+// }
 
 //------------------------------------------------------------------------------------------------------------------------------------------------------
 
