@@ -81,3 +81,4 @@ function draw() {
         text((i+1) + "." + favFoods[i], width/2, 80 + i*50);
     }
 }
+
