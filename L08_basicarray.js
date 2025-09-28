@@ -117,7 +117,7 @@
 
 //Task Extra
 
-let favFoods = ["Directed By", "Burger", "Sushi", "Tacos", "Pasta"]; 
+let favFoods = ["Directed By", "Robert B"]; 
 let yPos; 
 
 function setup() {
