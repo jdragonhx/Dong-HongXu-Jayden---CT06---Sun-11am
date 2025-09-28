@@ -106,6 +106,8 @@ function draw() {
     for (let i=0; i<favFoods.length; i++) {
         text((i+1) + "." + favFoods[i], width/2, yPos + i*50);
     }
-}
 
-yPos -=
+
+yPos -= 1;
+
+}
