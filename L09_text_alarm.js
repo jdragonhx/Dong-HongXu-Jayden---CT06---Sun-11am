@@ -11,5 +11,6 @@ function setup() {
 function draw() {
     background(220)
 
-    text("Bounce!", x, )
+    text("Bounce!", x, height/20);
+    
 }
