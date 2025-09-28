@@ -108,6 +108,6 @@ function draw() {
     }
 
 
-yPos -= 1;
+    yPos -= 1;
 
 }
