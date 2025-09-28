@@ -38,7 +38,7 @@ function draw() {
         text(storyText[i], width/2, yPos + i*50); 
     }
 
-    if(yPos < -(s))
+    if(yPos < -(storyText.length*24 + (storyText)))
 
     yPos -=1; 
 
