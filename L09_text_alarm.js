@@ -1,7 +1,7 @@
 //recap
 
 let x = 300;
-let speed = 67
+let speed = 1
 
 function setup() {
     createCanvas(600, 600)
