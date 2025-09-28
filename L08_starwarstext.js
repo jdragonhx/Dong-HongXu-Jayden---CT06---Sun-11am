@@ -42,6 +42,6 @@ function draw() {
         yPos = height;
     }
 
-    yPos -=1; 
+    yPos -=2; 
 
 }
