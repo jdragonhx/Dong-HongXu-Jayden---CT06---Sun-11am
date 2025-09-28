@@ -93,4 +93,10 @@ function setup() {
 
 function draw() {
     background(0)
+
+        text("My favourtie foods are: ", width/2, 50);
+
+    for (let i=0; i<favFoods.length; i++) {
+        text((i+1) + "." + favFoods[i], width/2, 80 + i*50);
+    }
 }
