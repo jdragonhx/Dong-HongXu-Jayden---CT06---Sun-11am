@@ -1,3 +1,5 @@
 //recap
 
-function setup()
+function setup() {
+    createCanvas()
+}
