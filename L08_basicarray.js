@@ -91,7 +91,9 @@ let yPos;
 function setup() {
     createCanvas(600, 600)
 
-    
+    fill(0);
+    textSize(24);
+    textAlign(CENTER);
 }
 
 function draw() {
