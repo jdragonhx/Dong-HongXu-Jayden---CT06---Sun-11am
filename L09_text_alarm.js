@@ -12,5 +12,6 @@ function draw() {
     background(220)
 
     text("Bounce!", x, height/20);
-    
+
+    x += speed
 }
