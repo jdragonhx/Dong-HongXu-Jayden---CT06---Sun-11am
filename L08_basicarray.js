@@ -89,7 +89,7 @@ let favFoods = ["Pizza", "Burger", "Sushi", "Tacos", "Pasta"];
 let yPos;
 
 function setup() {
-    createCanvas(600, 600)
+    createCanvas(600, 600);
 
     fill(0);
     textSize(24);
@@ -99,7 +99,7 @@ function setup() {
 }
 
 function draw() {
-    background(0)
+    background(0);
 
     // text("My favourtie foods are: ", width/2, 50);
 
