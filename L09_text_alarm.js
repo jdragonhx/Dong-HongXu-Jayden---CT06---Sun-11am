@@ -56,10 +56,10 @@ let interval;
 let countdown;
 
 function setup() {
-    createCanvas(600, 400)
-    textAlign(CENTER,)
+    createCanvas(600, 400);
+    textAlign(CENTER, CENTER);
 }
 
 function draw() {
-    background(220)
+    background(220);
 }
