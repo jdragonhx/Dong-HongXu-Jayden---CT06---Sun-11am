@@ -43,6 +43,7 @@ function draw() {
 
     let timeString = nf(h,2) + ":" + nf(m,2) + ":" + nf(s,2);
     textSize(72);
+    fill(0);
     
 }
 
