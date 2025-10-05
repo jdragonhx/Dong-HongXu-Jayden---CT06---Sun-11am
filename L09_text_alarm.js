@@ -93,7 +93,7 @@ let bgColor = 220;
 let sound;
 
 function preload() {
-    sound = loadSound('assets/star_wars_theme_8_bit.mp3');
+    sound = loadSound('assets/star_wars_theme_8_bit.mp38');
 }
 
 function setup() {
