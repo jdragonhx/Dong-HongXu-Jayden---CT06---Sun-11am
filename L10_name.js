@@ -11,7 +11,7 @@ function setup() {
 }
 
 function draw() {
-    background(220);
+    background(bgColor);
 
     let s = nf(second(),2);
     textSize(50);
