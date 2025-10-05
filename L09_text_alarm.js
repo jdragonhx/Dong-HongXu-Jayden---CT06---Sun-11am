@@ -38,7 +38,7 @@ function draw() {
     background(220);
 
     let h = hour();
-    let m = miniute();
+    let m = minute();
     let s = second();
 
     let timeString = nf(h,2) + ":" + nf(m,2) + ":" + nf(s,2);
