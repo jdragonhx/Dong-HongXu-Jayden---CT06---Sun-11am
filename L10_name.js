@@ -32,4 +32,6 @@ function countdown() {
 let inputText;
 let userText;
 
-funt
+function setup() {
+    
+}
