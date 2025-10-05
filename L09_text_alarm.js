@@ -41,6 +41,6 @@ function draw() {
     let m = miniute();
     let s = second();
 
-    let timeString = nf()
+    let timeString = nf(h,2) + ""
 }
 
