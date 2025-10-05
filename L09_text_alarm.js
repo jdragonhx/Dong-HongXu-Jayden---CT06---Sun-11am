@@ -31,5 +31,5 @@
 //task 1
 
 function setup() {
-    createCanvas
+    createCanvas(600,400);
 }
