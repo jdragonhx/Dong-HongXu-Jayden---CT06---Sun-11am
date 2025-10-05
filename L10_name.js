@@ -8,6 +8,7 @@ function setup() {
 function draw() {
     background(220)
 
-    let s = nf(second())
+    let s = nf(second(),2)
+    
 }
 
