@@ -67,5 +67,5 @@ function draw() {
     text('Click to start Timer', width/2, height-50);
 
     textSize(100);
-    text 
+    text(countdown, width/2, )
 }
