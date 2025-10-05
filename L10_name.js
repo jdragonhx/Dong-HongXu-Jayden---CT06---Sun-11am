@@ -30,3 +30,4 @@ function countdown() {
 //Task 1
 
 let inputText;
+let usertext
