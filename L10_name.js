@@ -22,5 +22,5 @@ function draw() {
 }
 
 function coundown() {
-    bgColor = color(random(255), random(255), random(255))
+    bgColor = color(random(255), random(255), random(255));
 }
