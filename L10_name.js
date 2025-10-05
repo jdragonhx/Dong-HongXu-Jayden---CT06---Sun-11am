@@ -10,6 +10,6 @@ function draw() {
 
     let s = nf(second(),2)
 
-    text(s, width)
+    text(s, width/2, height/2)
 }
 
