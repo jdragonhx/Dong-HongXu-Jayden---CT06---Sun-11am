@@ -114,6 +114,6 @@ function countdownUpdate() {
         countdown -=1;
     } else {
         clearInterval(interval);
-        change = setInterval(change)
+        change = setInterval(changeVar, 500)
     }
 }
