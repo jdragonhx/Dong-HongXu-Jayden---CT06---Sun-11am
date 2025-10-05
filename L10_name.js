@@ -41,4 +41,7 @@ function setup() {
     inputText.size(150, 30);
 }
 
-function draw()
+function draw() {
+    
+    background(220)
+}
