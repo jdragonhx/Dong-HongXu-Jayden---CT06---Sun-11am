@@ -64,5 +64,5 @@ function draw() {
     background(220);
 
     textSize(24);
-    text('')
+    text('Click to start Timer', )
 }
