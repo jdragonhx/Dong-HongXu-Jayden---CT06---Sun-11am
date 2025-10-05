@@ -52,3 +52,5 @@
 
 //Task 3
 
+let interval;
+let countdown;
