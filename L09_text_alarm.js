@@ -37,8 +37,8 @@ function setup() {
 function draw() {
     background(220);
 
-    let h = hour()
-    let m = miniute()
-    let s = seconds
+    let h = hour();
+    let m = miniute();
+    let s = second();
 }
 
