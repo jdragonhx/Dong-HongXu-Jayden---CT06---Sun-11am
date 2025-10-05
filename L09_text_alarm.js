@@ -30,3 +30,6 @@
 
 //task 1
 
+function setup() {
+    createCanvas
+}
