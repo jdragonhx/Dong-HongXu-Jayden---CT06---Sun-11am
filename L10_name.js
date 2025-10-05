@@ -1,6 +1,7 @@
 //recap
 
 let interval;
+let bgColor = 220
 
 function setup() {
     createCanvas(400, 400);
