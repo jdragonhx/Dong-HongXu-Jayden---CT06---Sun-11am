@@ -42,7 +42,8 @@ function setup() {
 }
 
 function draw() {
-
+    
     background(220);
-    text('Enter text here >')
+
+    text('Enter text here')
 }
