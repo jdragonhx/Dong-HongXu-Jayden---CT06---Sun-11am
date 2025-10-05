@@ -90,6 +90,7 @@ let interval;
 let countdown = 5;
 let change;
 let bgColor = 220;
+let sound
 
 function setup() {
     createCanvas(600, 400);
