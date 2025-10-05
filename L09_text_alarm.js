@@ -74,4 +74,8 @@ function mousePressed() {
     interval = setInterval(countdownUpdate, 1000);
 }
 
-function countdownUpdate()
+function countdownUpdate() {
+    if(countdown>0) {
+        
+    }
+}
