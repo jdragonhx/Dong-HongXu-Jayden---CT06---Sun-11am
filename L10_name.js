@@ -47,5 +47,5 @@ function draw() {
 
     text('Enter text here', 50, height-80);
 
-    text
+    text(usetText, width/2)
 }
