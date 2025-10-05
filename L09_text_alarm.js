@@ -89,7 +89,7 @@
 let interval;
 let countdown = 5;
 let change;
-let bgColor;
+let bgColor = 220;
 
 function setup() {
     createCanvas(600, 400);
