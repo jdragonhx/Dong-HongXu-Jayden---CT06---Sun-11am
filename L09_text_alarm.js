@@ -97,7 +97,7 @@ function setup() {
 }
 
 function draw() {
-    background(220);
+    background(bgColor);
 
     textSize(24);
     text('Click to start Timer', width/2, height-50);
@@ -120,5 +120,5 @@ function countdownUpdate() {
 }
 
 function changeVar() {
-    bgColor = color(random(255), random(255), random(255))
+    bgColor = color(random(255), random(255), random(255));
 }
