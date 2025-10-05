@@ -5,6 +5,8 @@ let interval;
 function setup() {
     createCanvas(400, 400);
     textAlign(CENTER, CENTER);
+
+    
 }
 
 function draw() {
@@ -13,6 +15,8 @@ function draw() {
     let s = nf(second(),2);
     textSize(50);
     text(s, width/2, height/2);
+
+
 
 }
 
