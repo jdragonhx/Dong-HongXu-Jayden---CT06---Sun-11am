@@ -33,5 +33,5 @@ let inputText;
 let userText;
 
 function setup() {
-    
+    createCanvas
 }
