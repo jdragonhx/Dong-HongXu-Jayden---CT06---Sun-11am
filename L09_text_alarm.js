@@ -40,5 +40,7 @@ function draw() {
     let h = hour();
     let m = miniute();
     let s = second();
+
+    let timeString = nf()
 }
 
