@@ -118,4 +118,6 @@ function countdownUpdate() {
     }
 }
 
-function change
+function changeVar() {
+    bgColor
+}
