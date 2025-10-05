@@ -88,6 +88,7 @@
 
 let interval;
 let countdown = 5;
+let change;
 
 function setup() {
     createCanvas(600, 400);
