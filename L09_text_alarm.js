@@ -54,3 +54,7 @@
 
 let interval;
 let countdown;
+
+function setup() {
+    
+}
