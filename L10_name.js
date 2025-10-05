@@ -45,5 +45,5 @@ function draw() {
     
     background(220);
 
-    text()
+    text('Enter text here')
 }
