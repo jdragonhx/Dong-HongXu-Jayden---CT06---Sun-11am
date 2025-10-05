@@ -92,7 +92,9 @@ let change;
 let bgColor = 220;
 let sound;
 
-function preload()
+function preload() {
+    sound = loadsound
+}
 
 function setup() {
     createCanvas(600, 400);
