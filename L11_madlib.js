@@ -6,6 +6,7 @@ let textColorPicker;
 function setup() {
     createCanvas(400, 400);
 
-    textBox = createInput;
+    textBox = createInput();
+    
 
 }
