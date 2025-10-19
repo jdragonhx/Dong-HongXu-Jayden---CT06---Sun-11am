@@ -16,8 +16,8 @@ function setup() {
 
 function draw() {
     background(220);
-
-    text(display, 50)
+    
+    text(display, 50, height/2)
 }
 
 function displayText() {
