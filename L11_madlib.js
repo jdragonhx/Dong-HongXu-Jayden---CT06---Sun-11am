@@ -33,4 +33,7 @@
 //Practice
 
 let textBox;
-let textButton
+
+function setup() {
+    createCanvas
+}
