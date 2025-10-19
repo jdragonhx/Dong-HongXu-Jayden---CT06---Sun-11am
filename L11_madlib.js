@@ -48,9 +48,9 @@ function setup() {
 }
 
 function draw() {
-    background(220)
+    background(220);
 
-    textBox(displayText, width/2, height/2)
+    textBox(displayText, width/2, height/2);
 }
 
 function display() {
