@@ -37,7 +37,7 @@ let textBox;
 function setup() {
     createCanvas(400, 400);
 
-    textbox = creatInput();
+    textbox = createInput();
     textBox.position(100, 50);
 
     button = createButton('Submit')
