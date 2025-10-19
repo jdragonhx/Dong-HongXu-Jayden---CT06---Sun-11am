@@ -40,7 +40,7 @@ function setup() {
     textbox = creatInput();
     textBox.position(100, 50);
 
-    button = createButton('Sumit')
+    button = createButton('Submit')
 }
 
 function draw() {
