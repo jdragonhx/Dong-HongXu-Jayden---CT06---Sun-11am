@@ -8,6 +8,6 @@ function setup() {
 
     textBox = createInput();
     textBox.position(50, 50);
-    textBox
+    textBox.size(150)
 
 }
