@@ -39,7 +39,7 @@ let displayText = "Input Shown Here";
 function setup() {
     createCanvas(400, 400);
 
-    textbox = createInput();
+    textBox = createInput();
     textBox.position(100, 50);
 
     button = createButton('Submit');
@@ -50,7 +50,7 @@ function setup() {
 function draw() {
     background(220)
 
-    textBox(displayText, width/2, height)
+    textBox(displayText, width/2, height/2)
 }
 
 function display() {
