@@ -41,7 +41,7 @@ function setup() {
     textBox.position(100, 50);
 
     button = createButton('Submit')
-    button.position(textBox.x + textBox.width + 30, 50)
+    button.position(textBox.x + textBox.width + 30, 50);
 }
 
 function draw() {
