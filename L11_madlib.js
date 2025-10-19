@@ -2,6 +2,7 @@
 
 let textBox;
 let textColorPicker;
+let display
 
 function setup() {
     createCanvas(400, 400);
@@ -18,5 +19,5 @@ function draw() {
 }
 
 function displayText() {
-    
+
 }
