@@ -9,10 +9,11 @@ function setup() {
     textBox = createInput();
     textBox.position(50, 50);
     textBox.size(150, 30);
-    textBox.input
+    textBox.input(displayText)
 
 }
 
 function draw() {
     background(220);
 }
+
