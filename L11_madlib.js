@@ -39,8 +39,10 @@ let displayText = "Input Shown Here";
 function setup() {
     createCanvas(400, 400);
 
-    textBox = createInput();
+    textbox = createInput();
     textBox.position(100, 50);
+    
+
 
     button = createButton('Submit');
     button.position(textBox.x + textBox.width + 30, 50);
