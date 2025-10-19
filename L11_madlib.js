@@ -13,7 +13,7 @@ function setup() {
     textBox.input(displayText)
 
     textColorPicker = createColorPicker();
-    textColorPicker.position(50, 100)
+    textColorPicker.position(50, 100);
 }
 
 function draw() {
