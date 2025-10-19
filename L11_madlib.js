@@ -8,6 +8,11 @@ function setup() {
 
     textBox = createInput();
     textBox.position(50, 50);
-    textBox.size(150)
+    textBox.size(150, 30);
 
+
+}
+
+function draw() {
+    
 }
