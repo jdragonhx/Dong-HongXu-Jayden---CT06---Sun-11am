@@ -43,7 +43,7 @@ function setup() {
 
     button = createButton('Submit');
     button.position(textBox.x + textBox.width + 30, 50);
-    
+    button.mousePressed();
 }
 
 function draw() {
