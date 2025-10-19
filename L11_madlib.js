@@ -12,6 +12,8 @@ function setup() {
     textBox.size(150, 30);
     textBox.input(displayText)
 
+    text
+
 }
 
 function draw() {
