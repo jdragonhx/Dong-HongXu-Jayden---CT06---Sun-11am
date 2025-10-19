@@ -20,6 +20,7 @@ function draw() {
     background(220);
     textAlign(LEFT);
     textSize(24);
+    fill
     text(display, 50, height/2);
 }
 
