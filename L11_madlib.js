@@ -1,29 +1,30 @@
-//recap
+// //recap
 
-let textBox;
-let textColorPicker;
-let display;
+// let textBox;
+// let textColorPicker;
+// let display;
 
-function setup() {
-    createCanvas(400, 400);
+// function setup() {
+//     createCanvas(400, 400);
 
-    textBox = createInput();
-    textBox.position(50, 50);
-    textBox.size(150, 30);
-    textBox.input(displayText)
+//     textBox = createInput();
+//     textBox.position(50, 50);
+//     textBox.size(150, 30);
+//     textBox.input(displayText)
 
-    textColorPicker = createColorPicker();
-    textColorPicker.position(50, 100);
-}
+//     textColorPicker = createColorPicker();
+//     textColorPicker.position(50, 100);
+// }
 
-function draw() {
-    background(220);
-    textAlign(LEFT);
-    textSize(24);
-    fill(textColorPicker.value())
-    text(display, 50, height/2);
-}
+// function draw() {
+//     background(220);
+//     textAlign(LEFT);
+//     textSize(24);
+//     fill(textColorPicker.value())
+//     text(display, 50, height/2);
+// }
 
-function displayText() {
-    display = this.value();
-}
+// function displayText() {
+//     display = this.value();
+// }
+
