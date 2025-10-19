@@ -38,5 +38,9 @@ function setup() {
     createCanvas(400, 400);
 
     textbox = creatInput();
-    textBox.position(100,)
+    textBox.position(100, 50);
+}
+
+function draw() {
+    
 }
