@@ -49,8 +49,10 @@ function setup() {
 
 function draw() {
     background(220)
+
+    
 }
 
 function display() {
-    displayText = textBox.
+    displayText = textBox.value();
 }
