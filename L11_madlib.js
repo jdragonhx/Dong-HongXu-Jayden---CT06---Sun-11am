@@ -34,7 +34,7 @@
 
 let textBox;
 let button; 
-let displayText = "Input Shown Here"
+let displayText = "Input Shown Here";
 
 function setup() {
     createCanvas(400, 400);
