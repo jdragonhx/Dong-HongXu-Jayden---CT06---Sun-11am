@@ -50,8 +50,7 @@ function setup() {
 function draw() {
     background(220)
 
-    textBox(displayText)
-}
+    textBox(displayText, width/2, innerHeight}
 
 function display() {
     displayText = textBox.value();
