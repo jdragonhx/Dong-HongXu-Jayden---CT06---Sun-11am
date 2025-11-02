@@ -187,7 +187,7 @@ function draw() {
         text(arr2[i], 50, 350 + i*50); 
     }
     
-    text(storyText)
+    text(storyText, 50, 350)
     
 }
 
