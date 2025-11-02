@@ -16,5 +16,5 @@ function draw() {
     textSize(24);
     text("Guess the Word!", width/2, 50);
     text("Attempts: " + attempts);
-    text("Hint: ")
+    text("Hint: " + randWord)
 }
