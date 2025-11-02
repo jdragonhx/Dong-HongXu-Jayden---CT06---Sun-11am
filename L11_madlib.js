@@ -132,94 +132,94 @@
 //task 2
 
 
-let textBox1, textBox2, textBox3, textBox4, textBox5;
-let arr = ["Enter a noun:", "Enter a verb:", "Enter an adjective:", "Enter an adverb:", "Enter a place:"]; 
-let button; 
-let displayText1, displayText2, displayText3, displayText4, displayText5; 
-let arr2 = []; 
+// let textBox1, textBox2, textBox3, textBox4, textBox5;
+// let arr = ["Enter a noun:", "Enter a verb:", "Enter an adjective:", "Enter an adverb:", "Enter a place:"]; 
+// let button; 
+// let displayText1, displayText2, displayText3, displayText4, displayText5; 
+// let arr2 = []; 
 
-let storyTemplates = [
-        "The {adj} {noun} decided to {verb} {adv} at the {place}.",
-        "One day, a {adj} {noun} wanted to {verb} {adv} in {place}.",
-        "Did you hear about the {adj} {noun} that tried to {verb} {adv} near {place}?"
-    ];
-let storyText = ""; 
-
-
-
-function setup() {
-    createCanvas(600, 600); 
+// let storyTemplates = [
+//         "The {adj} {noun} decided to {verb} {adv} at the {place}.",
+//         "One day, a {adj} {noun} wanted to {verb} {adv} in {place}.",
+//         "Did you hear about the {adj} {noun} that tried to {verb} {adv} near {place}?"
+//     ];
+// let storyText = ""; 
 
 
 
-    textBox1 = createInput(); 
-    textBox1.position(width/2-textBox1.width/2, 50); 
-    textBox1.size(150, 30); 
-
-    textBox2 = createInput(); 
-    textBox2.position(width/2-textBox2.width/2, 100); 
-    textBox2.size(150, 30); 
-
-    textBox3 = createInput(); 
-    textBox3.position(width/2-textBox3.width/2, 150); 
-    textBox3.size(150, 30); 
-
-    textBox4 = createInput(); 
-    textBox4.position(width/2-textBox4.width/2, 200); 
-    textBox4.size(150, 30); 
-
-    textBox5 = createInput(); 
-    textBox5.position(width/2-textBox5.width/2, 250); 
-    textBox5.size(150, 30); 
-
-    button = createButton('Generate Story'); 
-    button.position(width/2 - button.width/2,300); 
-    button.mousePressed(display); 
+// function setup() {
+//     createCanvas(600, 600); 
 
 
 
-}
+//     textBox1 = createInput(); 
+//     textBox1.position(width/2-textBox1.width/2, 50); 
+//     textBox1.size(150, 30); 
 
-function draw() {
-    background(220); 
-    textSize(15); 
-    for(let i=0; i<arr.length; i++) {
-        text(arr[i], 50, 50+i*50 + 20);
-    }
+//     textBox2 = createInput(); 
+//     textBox2.position(width/2-textBox2.width/2, 100); 
+//     textBox2.size(150, 30); 
 
-    
+//     textBox3 = createInput(); 
+//     textBox3.position(width/2-textBox3.width/2, 150); 
+//     textBox3.size(150, 30); 
 
-    text(storyText, 50, 350);
+//     textBox4 = createInput(); 
+//     textBox4.position(width/2-textBox4.width/2, 200); 
+//     textBox4.size(150, 30); 
+
+//     textBox5 = createInput(); 
+//     textBox5.position(width/2-textBox5.width/2, 250); 
+//     textBox5.size(150, 30); 
+
+//     button = createButton('Generate Story'); 
+//     button.position(width/2 - button.width/2,300); 
+//     button.mousePressed(display); 
+
+
+
+// }
+
+// function draw() {
+//     background(220); 
+//     textSize(15); 
+//     for(let i=0; i<arr.length; i++) {
+//         text(arr[i], 50, 50+i*50 + 20);
+//     }
 
     
+
+//     text(storyText, 50, 350);
+
     
-}
+    
+// }
 
-function display() {
+// function display() {
 
-    let template = random(storyTemplates); 
+//     let template = random(storyTemplates); 
 
-    displayText1 = textBox1.value(); 
-    //arr2.push(displayText1); 
+//     displayText1 = textBox1.value(); 
+//     //arr2.push(displayText1); 
 
-    displayText2 = textBox2.value(); 
-    //arr2.push(displayText2); 
+//     displayText2 = textBox2.value(); 
+//     //arr2.push(displayText2); 
 
-    displayText3 = textBox3.value(); 
-    //arr2.push(displayText3); 
+//     displayText3 = textBox3.value(); 
+//     //arr2.push(displayText3); 
 
-    displayText4 = textBox4.value(); 
-    //arr2.push(displayText4); 
+//     displayText4 = textBox4.value(); 
+//     //arr2.push(displayText4); 
 
-    displayText5 = textBox5.value(); 
-    //arr2.push(displayText5); 
+//     displayText5 = textBox5.value(); 
+//     //arr2.push(displayText5); 
 
-    storyText = template.replace("{noun}", displayText1)
-                        .replace("{verb}", displayText2) 
-                        .replace("{adj}", displayText3) 
-                        .replace("{adv}", displayText4) 
-                        .replace("{place}", displayText5); 
+//     storyText = template.replace("{noun}", displayText1)
+//                         .replace("{verb}", displayText2) 
+//                         .replace("{adj}", displayText3) 
+//                         .replace("{adv}", displayText4) 
+//                         .replace("{place}", displayText5); 
 
 
-}
+// }
 
