@@ -15,10 +15,12 @@ function setup() {
 
     textBox = createInput()
     textBox.position(width/2-textBox.width/2, 200)
+
+    
 }
 
 function draw() {
-    back
+    background(220)
 
     textAlign(CENTER, CENTER);
     textSize(24);
