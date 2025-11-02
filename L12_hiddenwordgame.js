@@ -6,5 +6,9 @@ let words = [
     "pineapple", "furniture", "telephone", "lighthouse"];
 
 function setup() {
+    createCanvas(600, 400)
+}
+
+function draw() {
     
 }
