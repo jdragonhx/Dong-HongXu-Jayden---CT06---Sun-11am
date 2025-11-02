@@ -142,11 +142,13 @@ let arr = ["Enter a noun:", "Enter a verb:", "Enter an adjective:", "Enter an ad
 let button; 
 let displayText1, displayText2, displayText3, displayText4, displayText5; 
 let arr2 = []; 
-let stroytext = ""
+let stroytext = "";
 
 
 function setup() {
-    createCanvas(600, 600); 
+    createCanvas(600, 600);
+    
+    
 
     textBox1 = createInput(); 
     textBox1.position(width/2-textBox1.width/2, 50); 
