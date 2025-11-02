@@ -148,7 +148,7 @@ let stroytext = "";
 function setup() {
     createCanvas(600, 600);
     
-    
+    let template 
 
     textBox1 = createInput(); 
     textBox1.position(width/2-textBox1.width/2, 50); 
