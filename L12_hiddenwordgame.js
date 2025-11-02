@@ -16,8 +16,9 @@ function setup() {
     textBox = createInput()
     textBox.position(width/2-textBox.width/2, 200)
 
-    buttton = createButton('Guess')
+    button = createButton('Guess')
     button.position(width/2-textBox.width/2 + textBox.width + 30, 200)
+
 }
 
 function draw() {
