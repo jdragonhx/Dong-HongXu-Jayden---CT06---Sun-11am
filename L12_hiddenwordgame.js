@@ -12,6 +12,6 @@ function setup() {
 }
 
 function draw() {
-    text
+    textAlign(CENTER)
     text("Guess the Word!", width/2, 50);
 }
