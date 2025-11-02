@@ -14,7 +14,7 @@ function setup() {
     createCanvas(600, 400)
 
     textBox = createInput()
-    
+    textBox.position(width)
 }
 
 function draw() {
