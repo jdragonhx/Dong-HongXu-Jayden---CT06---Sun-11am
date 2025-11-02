@@ -211,6 +211,6 @@ function display() {
 
     storyText = template.replace("{noun}", displayText1)
                         .replace("{verb}", displayText2)
-                        .replace("{adj}", displayText1)
+                        .replace("{adj}", displayText3)
 
 }
