@@ -16,7 +16,7 @@ function setup() {
     textBox = createInput()
     textBox.position(width/2-textBox.width/2, 200)
 
-    
+    buttton = createButton('Submmit')
 }
 
 function draw() {
