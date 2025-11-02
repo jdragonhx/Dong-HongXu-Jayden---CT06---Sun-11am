@@ -209,7 +209,7 @@ function display() {
     displayText5 = textBox5.value(); 
     // arr2.push(displayText5); 
 
-    storyTemplates = template.replace("{noun}", displayText1)
-                    
+    storyText = template.replace("{noun}", displayText1)
+
 
 }
