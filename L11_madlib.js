@@ -205,7 +205,7 @@ function display() {
     displayText4 = textBox4.value(); 
     arr2.push(displayText4); 
 
-    displayText5 = "Place: " + textBox5.value(); 
+    displayText5 = textBox5.value(); 
     arr2.push(displayText5); 
 
 
