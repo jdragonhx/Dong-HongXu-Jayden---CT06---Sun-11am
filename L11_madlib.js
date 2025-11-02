@@ -203,10 +203,10 @@ function display() {
     arr2.push(displayText3); 
 
     displayText4 = textBox4.value(); 
-    arr2.push(displayText4); 
+    // arr2.push(displayText4); 
 
     displayText5 = textBox5.value(); 
-    arr2.push(displayText5); 
+    // arr2.push(displayText5); 
 
 
 }
