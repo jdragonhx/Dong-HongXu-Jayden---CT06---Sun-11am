@@ -194,13 +194,13 @@ function draw() {
 
 function display() {
     displayText1 = textBox1.value(); 
-    arr2.push(displayText1); 
+    // arr2.push(displayText1); 
 
     displayText2 = textBox2.value(); 
-    arr2.push(displayText2); 
+    // arr2.push(displayText2); 
 
     displayText3 = textBox3.value(); 
-    arr2.push(displayText3); 
+    // arr2.push(displayText3); 
 
     displayText4 = textBox4.value(); 
     // arr2.push(displayText4); 
