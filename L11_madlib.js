@@ -213,6 +213,6 @@ function display() {
                         .replace("{verb}", displayText2)
                         .replace("{adj}", displayText3)
                         .replace("{adv}", displayText4)
-                        .replace("{place}", displayText1)
+                        .replace("{place}", displayText5)
 
 }
