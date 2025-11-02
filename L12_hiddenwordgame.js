@@ -6,6 +6,7 @@ let words = [
     "pineapple", "furniture", "telephone", "lighthouse"];
 
 let attempts = 0;
+let rand
 
 function setup() {
     createCanvas(600, 400)
