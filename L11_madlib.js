@@ -192,7 +192,7 @@ function draw() {
 
 function display() {
 
-    let
+    let template = random(storytem)
 
     displayText1 = textBox1.value(); 
     // arr2.push(displayText1); 
