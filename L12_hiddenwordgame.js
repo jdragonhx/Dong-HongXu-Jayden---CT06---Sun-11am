@@ -12,6 +12,6 @@ function setup() {
 }
 
 function draw() {
-    Text("Guess the Word!", width/2, 50);
     
+    Text("Guess the Word!", width/2, 50);
 }
