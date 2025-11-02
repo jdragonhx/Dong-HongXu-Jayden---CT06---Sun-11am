@@ -209,6 +209,6 @@ function display() {
     displayText5 = textBox5.value(); 
     // arr2.push(displayText5); 
 
-    storyTemplates = template
+    storyTemplates = template.replace("{}")
 
 }
