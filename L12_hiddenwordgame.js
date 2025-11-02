@@ -22,7 +22,7 @@ function setup() {
     button.mousePressed(display);
 
     randWord = random(words)
-    randWord = randWord[0].toUpperCase()
+    randWord = randWord[0].toUpperCase() + ""
 }
 
 function draw() {
