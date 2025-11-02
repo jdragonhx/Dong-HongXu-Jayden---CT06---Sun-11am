@@ -210,6 +210,6 @@ function display() {
     // arr2.push(displayText5); 
 
     storyText = template.replace("{noun}", displayText1)
-                        .replace
+                        .replace("{verb}", displayText1)
 
 }
