@@ -210,6 +210,6 @@ function display() {
     // arr2.push(displayText5); 
 
     storyTemplates = template.replace("{noun}", displayText1)
-                            .
+                    
 
 }
