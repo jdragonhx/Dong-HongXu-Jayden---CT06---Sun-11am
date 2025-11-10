@@ -30,7 +30,7 @@ function setup() {
     buttonS = createButton('Rescramble')
     buttonS.position(width/2-textBox.width/2 + textBox.width + 30, 200)
     buttonS.mousePressed(sameScramble);
-    buttonS.style("font-size", "24px")
+    buttonS.style("font-size", "20px")
     button.size(100, 30);
 
     randWord = random(words)
@@ -80,5 +80,5 @@ function getCorrectLetters(guess, randWord) {
 }
 
 function sameScramble() {
-    
+
 }
