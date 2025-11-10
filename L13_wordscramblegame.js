@@ -47,7 +47,7 @@ function draw() {
     textSize(24); 
     text("Scramble Word Game!", width/2, 50); 
     text("Score: " + score, width/2, 100); 
-    text("Scrambled Word: " + hiddenWord, width/2, 150); 
+    text("Scrambled Word: " + scrambledWord, width/2, 150); 
     text(message, width/2, 300);
 }
 
@@ -67,8 +67,6 @@ function checkGuess() {
         words.splice(words.indexOf(hiddenWord), 1);
         pickNewWord();
         textBox.value(''); 
-    } else if (guess.length != 5) {
-        message = "5 Letters Only!"
     } else {
         score += 0;
         message = "Try Again."; 
