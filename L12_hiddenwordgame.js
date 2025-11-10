@@ -16,7 +16,7 @@ function setup() {
 
     textBox = createInput()
     textBox.position(width/2-textBox.width/2, 200)
-    textBox
+    textBox.style("background")
 
     button = createButton('Guess')
     button.position(width/2-textBox.width/2 + textBox.width + 30, 200)
