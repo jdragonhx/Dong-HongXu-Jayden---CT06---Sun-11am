@@ -83,6 +83,10 @@ function getCorrectLetters(guess,hiddenWord) {
     return correctLetters; 
 }
 
+function Scramble(word) {
+    let arr
+}
+
 function sameScramble() {
 
 }
