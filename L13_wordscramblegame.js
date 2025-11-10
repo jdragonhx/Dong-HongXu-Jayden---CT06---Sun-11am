@@ -84,7 +84,7 @@ function getCorrectLetters(guess,hiddenWord) {
 }
 
 function Scramble(word) {
-    let arr
+    let arr = word.split{}
 }
 
 function sameScramble() {
