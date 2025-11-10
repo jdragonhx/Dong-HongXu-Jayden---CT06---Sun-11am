@@ -44,5 +44,7 @@ function draw() {
 // }
 
 function checkGuess() {
-    attempts
+    attempts++;
+
+    let 
 }
