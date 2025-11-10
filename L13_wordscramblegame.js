@@ -10,7 +10,7 @@ let button;
 let textDis;
 let message = "";
 let hint = "";
-let buttonS = 
+let buttonS;
 
 function setup() {
     createCanvas(600, 400)
