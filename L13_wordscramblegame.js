@@ -79,4 +79,6 @@ function getCorrectLetters(guess, randWord) {
     return correctLetters;
 }
 
-function
+function sameScramble() {
+    
+}
