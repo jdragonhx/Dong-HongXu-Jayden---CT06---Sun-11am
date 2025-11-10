@@ -25,10 +25,12 @@ function setup() {
     button.position(width/2-textBox.width/2 + textBox.width + 30, 200)
     button.mousePressed(checkGuess);
     button.style("font-size", "24px")
+    
 
     buttonS = createButton('Guess')
     buttonS.position(width/2-textBox.width/2 + textBox.width + 30, 200)
     buttonS.mousePressed(checkGuess);
+    buttonS.style("font-size", "24px")
 
     randWord = random(words)
     console.log(randWord)
