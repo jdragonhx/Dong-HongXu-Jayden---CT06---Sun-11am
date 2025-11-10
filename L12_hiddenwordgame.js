@@ -39,6 +39,7 @@ function draw() {
     text(textDis, width/2, 300);
 }
 
-function display() {
-    textDis = textBox.value();
-}
+// function display() {
+//     textDis = textBox.value();
+// }
+
