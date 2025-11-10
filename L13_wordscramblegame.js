@@ -34,13 +34,8 @@ function setup() {
     button2.style("font-size", "16px"); 
     button2.mousePressed(sameScramble); 
 
-
-    hiddenWord = random(words); 
-    console.log(hiddenWord);
-
     //hint = hiddenWord[0].toUpperCase() + " " + "_ ".repeat(hiddenWord.length-1);
     
-
 }
 
 function draw() {
@@ -93,7 +88,8 @@ function Scramble(word) {
 }
 
 function pickNewWord() {
-    
+    hiddenWord = random(words); 
+    console.log(hiddenWord);
 }
 
 function sameScramble() {
