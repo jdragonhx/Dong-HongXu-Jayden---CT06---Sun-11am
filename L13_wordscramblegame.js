@@ -24,6 +24,7 @@ function setup() {
     button = createButton('Guess')
     button.position(width/2-textBox.width/2 + textBox.width + 30, 200)
     button.mousePressed(checkGuess);
+    button.style
 
     buttonS = createButton('Guess')
     buttonS.position(width/2-textBox.width/2 + textBox.width + 30, 200)
