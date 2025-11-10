@@ -17,7 +17,7 @@ function setup() {
     textBox = createInput()
     textBox.position(width/2-textBox.width/2, 200)
     textBox.style("font-size", "24px");
-    textBox.style("background-color", "")
+    textBox.style("background-color", "lightblue");
 
     button = createButton('Guess')
     button.position(width/2-textBox.width/2 + textBox.width + 30, 200)
