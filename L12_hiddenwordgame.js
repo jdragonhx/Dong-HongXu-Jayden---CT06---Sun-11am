@@ -55,7 +55,7 @@ function checkGuess() {
     if(guess == randWord) {
         message = "You guessed it right! The word is" + randWord;
     } else if (guess !=5) {
-        
+        message = "5 Letters Only"
     }
 }
 
