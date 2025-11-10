@@ -54,6 +54,7 @@ function checkGuess() {
 
 }
 
-function getCorrectLetters() {
-    let correctLetters
+function getCorrectLetters(guess, randWord) {
+    let correctLetters = "";
+    for(let i=0; i<randWord.length; i++)
 }
