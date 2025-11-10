@@ -52,6 +52,9 @@ function checkGuess() {
     let guess = textBox.value().toLowerCase();
     message = getCorrectLetters(guess, randWord)
 
+    if(guess == randWord) {
+        
+    }
 }
 
 function getCorrectLetters(guess, randWord) {
