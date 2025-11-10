@@ -70,7 +70,7 @@ function checkGuess() {
     } else if (guess.length != 5) {
         message = "5 Letters Only!"
     } else {
-        message = "Try Again" + message; 
+        message = "Try Again."; 
     }
 
 }
