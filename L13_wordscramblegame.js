@@ -91,6 +91,8 @@ function Scramble(word) {
 function pickNewWord() {
     hiddenWord = random(words); 
     console.log(hiddenWord);
+
+    scrambledWord
 }
 
 function sameScramble() {
