@@ -45,7 +45,7 @@ function draw() {
 // }
 
 function checkGuess() {
-    attempts++;
+    score++;
 
     let guess = textBox.value().toLowerCase();
     message = getCorrectLetters(guess, randWord)
