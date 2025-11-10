@@ -15,7 +15,9 @@ let words = [
     "pineapple", "furniture", "telephone", "lighthouse"];
 
 function setup() {
-    createCanvas(600, 400); 
+    createCanvas(600, 400);
+    
+    pickNewWord();
 
     textBox = createInput(); 
     textBox.size(250, 30);
