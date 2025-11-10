@@ -28,7 +28,7 @@ function setup() {
     button.size(100, 30);
 
     buttonS = createButton('Rescramble')
-    buttonS.position(textBox + textBoxS.width + 30, 200)
+    buttonS.position(textBox.x + textBoxS.width - 30, 200)
     buttonS.mousePressed(sameScramble);
     buttonS.style("font-size", "16px")
     button.size(100, 30);
