@@ -1,9 +1,7 @@
 // write your codes here
 
-let words = [
-    "elephant", "backpack", "keyboard", "hospital", "sunlight", "raincoat", "notebook", "shoulder", 
-    "football", "bathroom", "sandwich", "airplane", "umbrella", "medicine", "chocolate", "software", 
-    "pineapple", "furniture", "telephone", "lighthouse"];
+let words = ["apple", "mango", "grape", "peach", "melon", "table", "chair", "brick", "cloud", "storm", 
+    "beach", "river", "flame", "grass", "skull", "horse", "laser", "brain", "plane", "train"];
 
 let attempts = 0;
 let randWord = "";
