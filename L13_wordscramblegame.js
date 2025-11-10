@@ -92,7 +92,7 @@ function pickNewWord() {
     hiddenWord = random(words); 
     console.log(hiddenWord);
 
-    scrambledWord = Scramble
+    scrambledWord = Scramble(hiddenWord);
 }
 
 function sameScramble() {
