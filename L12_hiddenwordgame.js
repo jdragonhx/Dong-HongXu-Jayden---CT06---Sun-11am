@@ -15,7 +15,8 @@ function setup() {
     createCanvas(600, 400)
 
     textBox = createInput()
-    textBox.size 
+    textBox.size(250, 30);
+    
     textBox.position(width/2-textBox.width/2, 200)
     textBox.style("font-size", "24px");
     textBox.style("background-color", "lightblue");
