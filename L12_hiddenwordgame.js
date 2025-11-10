@@ -48,6 +48,6 @@ function checkGuess() {
     attempts++;
 
     let guess = textBox.value().toLowerCase();
-    message = getCorrectLetters(guess, hidden)
+    message = getCorrectLetters(guess, hiddenWord)
 
 }
