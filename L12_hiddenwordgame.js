@@ -27,7 +27,7 @@ function setup() {
     button.mousePressed(checkGuess);
 
     randWord = random(words)
-    randWord = randWord[0].toUpperCase() + " " + "_ ".repeat(randWord.length-1)
+    hint = randWord[0].toUpperCase() + " " + "_ ".repeat(randWord.length-1)
 }
 
 function draw() {
