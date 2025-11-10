@@ -7,7 +7,7 @@ let message = "";
 let hint = ""; 
 let score = 0; 
 let button2;
-let Scrambledword 
+let scrambledWord 
 
 let words = [
     "elephant", "backpack", "keyboard", "hospital", "sunlight", "raincoat", "notebook", "shoulder", 
