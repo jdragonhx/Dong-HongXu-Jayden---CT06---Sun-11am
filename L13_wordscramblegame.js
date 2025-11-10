@@ -66,11 +66,11 @@ function checkGuess() {
         message = "You guessed it right! The word is " + hiddenWord;
         words.splice(words.indexOf(hiddenWord), 1);
         pickNewWord();
-        textBox.value('') 
+        textBox.value(''); 
     } else if (guess.length != 5) {
         message = "5 Letters Only!"
     } else {
-        message = "Try Again. The letter(s) you got it right is/are " + message; 
+        message = "Try Again" + message; 
     }
 
 }
