@@ -11,7 +11,7 @@ let textBox;
 let button;
 let textDis;
 let message = "";
-let 
+let hint = "";
 
 function setup() {
     createCanvas(600, 400)
