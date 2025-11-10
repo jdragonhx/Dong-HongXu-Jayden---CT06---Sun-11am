@@ -43,3 +43,6 @@ function draw() {
 //     textDis = textBox.value();
 // }
 
+function checkGuess() {
+    attempts
+}
