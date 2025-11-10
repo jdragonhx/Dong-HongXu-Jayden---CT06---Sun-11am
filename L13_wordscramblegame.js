@@ -29,7 +29,7 @@ function setup() {
 
     buttonS = createButton('Guess')
     buttonS.position(width/2-textBox.width/2 + textBox.width + 30, 200)
-    buttonS.mousePressed(checkGuess);
+    buttonS.mousePressed(sameScramble);
     buttonS.style("font-size", "24px")
     button.size(100, 30);
 
