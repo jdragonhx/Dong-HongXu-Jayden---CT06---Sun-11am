@@ -55,5 +55,5 @@ function checkGuess() {
 }
 
 function getCorrectLetters() {
-    
+    let correct
 }
