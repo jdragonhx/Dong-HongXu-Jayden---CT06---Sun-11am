@@ -16,7 +16,7 @@ function setup() {
 
     textBox = createInput()
     textBox.size(250, 30);
-    text
+    textBox.position(width/2)
     textBox.position(width/2-textBox.width/2, 200)
     textBox.style("font-size", "24px");
     textBox.style("background-color", "lightblue");
