@@ -1,5 +1,3 @@
-
-
 let words = ["apple", "mango", "grape", "peach", "melon", "table", "chair", "brick", "cloud", "storm", 
     "beach", "river", "flame", "grass", "skull", "horse", "laser", "brain", "plane", "train"];
 
