@@ -84,7 +84,10 @@ function getCorrectLetters(guess,hiddenWord) {
 }
 
 function Scramble(word) {
-    let arr = word.split{}
+    let arr = word.split('');
+    for(let i=arr.length-1; i>0; i--) {
+        
+    }
 }
 
 function sameScramble() {
