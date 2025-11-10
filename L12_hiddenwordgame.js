@@ -54,3 +54,6 @@ function checkGuess() {
 
 }
 
+function getCorrectLetters() {
+    
+}
