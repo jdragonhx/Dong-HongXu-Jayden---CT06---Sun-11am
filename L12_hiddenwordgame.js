@@ -53,7 +53,7 @@ function checkGuess() {
     message = getCorrectLetters(guess, randWord)
 
     if(guess == randWord) {
-        message = "You guessed it right! The word is" 
+        message = "You guessed it right! The word is" + randWord;
     }
 }
 
