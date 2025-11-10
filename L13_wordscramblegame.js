@@ -64,7 +64,7 @@ function checkGuess() {
     if(guess == hiddenWord) {
         score++;
         message = "You guessed it right! The word is " + hiddenWord;
-        words.splice(words.indexOf(hiddenWord), ) 
+        words.splice(words.indexOf(hiddenWord), 1); 
     } else if (guess.length != 5) {
         message = "5 Letters Only!"
     } else {
