@@ -61,5 +61,5 @@ function getCorrectLetters(guess, randWord) {
             correctLetters += guess[i].toUpperCase();
         }
     }
-    return correctLetters
+    return correctLetters;
 }
