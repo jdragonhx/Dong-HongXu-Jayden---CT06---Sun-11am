@@ -26,7 +26,7 @@ function setup() {
     randWord = random(words)
     console.log(randWord)
 
-    hint = randWord[0].toUpperCase() + " " + "_ ".repeat(randWord.length-1)
+//    hint = randWord[0].toUpperCase() + " " + "_ ".repeat(randWord.length-1)
 }
 
 function draw() {
