@@ -3,7 +3,7 @@ let words = [
     "football", "bathroom", "sandwich", "airplane", "umbrella", "medicine", "chocolate", "software", 
     "pineapple", "furniture", "telephone", "lighthouse"];
 
-let attempts = 0;
+let score = 0;
 let randWord = "";
 let textBox;
 let button;
