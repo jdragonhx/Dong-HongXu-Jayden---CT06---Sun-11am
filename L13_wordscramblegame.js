@@ -92,6 +92,10 @@ function Scramble(word) {
     return arr.join('');
 }
 
-function sameScramble() {
+function pickNewWord() {
     
+}
+
+function sameScramble() {
+
 }
