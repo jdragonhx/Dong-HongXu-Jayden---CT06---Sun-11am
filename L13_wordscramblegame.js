@@ -1,82 +1,86 @@
+let attempts = 0;
+let hiddenWord = ""; 
+let textBox; 
+let button; 
+let displayWord = ""; 
+let message = ""; 
+let hint = ""; 
+let score = 0; 
+let button2; 
+
 let words = [
     "elephant", "backpack", "keyboard", "hospital", "sunlight", "raincoat", "notebook", "shoulder", 
     "football", "bathroom", "sandwich", "airplane", "umbrella", "medicine", "chocolate", "software", 
     "pineapple", "furniture", "telephone", "lighthouse"];
 
-let score = 0;
-let randWord = "";
-let textBox;
-let button;
-let textDis;
-let message = "";
-let hint = "";
-let buttonS;
-
 function setup() {
-    createCanvas(600, 400)
+    createCanvas(600, 400); 
 
-    textBox = createInput()
+    textBox = createInput(); 
     textBox.size(250, 30);
-    textBox.position(width/2-textBox.width/2, 200)
-    textBox.style("font-size", "24px");
+    textBox.position(width/2 - textBox.width/2, 200); 
+    textBox.style("font-size", "24px"); 
     textBox.style("background-color", "lightblue");
 
-    button = createButton('Guess')
-    button.position(width/2-textBox.width/2 + textBox.width + 30, 200)
-    button.mousePressed(checkGuess);
-    button.style("font-size", "16px")
+    button = createButton('Guess'); 
     button.size(100, 30);
+    button.position(textBox.x + textBox.width + 30, 200); 
+    button.style("font-size", "16px"); 
+    button.mousePressed(checkGuess); 
 
-    buttonS = createButton('Rescramble')
-    buttonS.position(textBox.x + textBoxS.width - 30, 200)
-    buttonS.mousePressed(sameScramble);
-    buttonS.style("font-size", "16px")
-    button.size(100, 30);
+    button2 = createButton('Rescramble'); 
+    button2.size(100, 30);
+    button2.position(textBox.x - button2.width - 30, 200); 
+    button2.style("font-size", "16px"); 
+    button2.mousePressed(sameScramble); 
 
-    randWord = random(words)
-    console.log(randWord)
 
-//    hint = randWord[0].toUpperCase() + " " + "_ ".repeat(randWord.length-1)
+    hiddenWord = random(words); 
+    console.log(hiddenWord);
+
+    //hint = hiddenWord[0].toUpperCase() + " " + "_ ".repeat(hiddenWord.length-1);
+    
+
 }
 
 function draw() {
-    background(220)
-
-    textAlign(CENTER, CENTER);
-    textSize(24);
-    text("Scramble Word Game!", width/2, 50);
-    text("Attempts: " + score, width/2, 100);
-    text("Scambled Word: " + randWord, width/2, 150);
+    background(220); 
+    textAlign(CENTER, CENTER); 
+    textSize(24); 
+    text("Scramble Word Game!", width/2, 50); 
+    text("Score: " + score, width/2, 100); 
+    text("Scrambled Word: " + hiddenWord, width/2, 150); 
     text(message, width/2, 300);
 }
 
-// function display() {
-//     textDis = textBox.value();
+// function displayText() {
+//     displayWord = textBox.value(); 
 // }
 
 function checkGuess() {
-    score++;
+    attempts++; 
 
-    let guess = textBox.value().toLowerCase();
-    message = getCorrectLetters(guess, randWord)
+    let guess = textBox.value().toLowerCase(); 
+    message = getCorrectLetters(guess, hiddenWord); 
 
-    if(guess == randWord) {
-        message = "You guessed it right! The word is " + randWord;
-    } else if (guess.length !=5) {
+    if(guess == hiddenWord) {
+        message = "You guessed it right! The word is " + hiddenWord; 
+    } else if (guess.length != 5) {
         message = "5 Letters Only!"
     } else {
-        message = "Try Again. The letters you got right is/are " + message
+        message = "Try Again. The letter(s) you got it right is/are " + message; 
     }
+
 }
 
-function getCorrectLetters(guess, randWord) {
-    let correctLetters = "";
-    for(let i=0; i<randWord.length; i++) {
-        if(randWord.includes(guess[i]) && !correctLetters.includes(guess[i].toUpperCase())) {
-            correctLetters += guess[i].toUpperCase();
+function getCorrectLetters(guess,hiddenWord) {
+    let correctLetters = ""; 
+    for(let i=0; i<hiddenWord.length; i++) {
+        if(hiddenWord.includes(guess[i]) && !correctLetters.includes(guess[i].toUpperCase())) {
+            correctLetters += guess[i].toUpperCase(); 
         }
     }
-    return correctLetters;
+    return correctLetters; 
 }
 
 function sameScramble() {
