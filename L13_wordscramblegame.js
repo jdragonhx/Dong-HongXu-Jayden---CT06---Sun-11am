@@ -96,5 +96,5 @@ function pickNewWord() {
 }
 
 function sameScramble() {
-
+    scrambledWord = Scramble(hiddenWord);
 }
