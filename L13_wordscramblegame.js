@@ -36,7 +36,7 @@ function draw() {
     textSize(24);
     text("Scramble Word Game!", width/2, 50);
     text("Attempts: " + score, width/2, 100);
-    text("Scambled Word: " + hint, width/2, 150);
+    text("Scambled Word: " + randWord, width/2, 150);
     text(message, width/2, 300);
 }
 
